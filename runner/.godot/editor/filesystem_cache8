@@ -1,0 +1,25 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1730522507
+dino.gd::GDScript::-1::1730518476::0::1::::<>CharacterBody2D<>::
+echo.gd::GDScript::-1::1730520802::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::2786870752514414775::1729895627::1729895630::1::::<><>::
+main.gd::GDScript::-1::1730521114::0::1::::<>Node2D<>::
+Main_ Story_Font_majorL retro by Catman Industries.ttf::FontFile::2720458259322528371::1730085949::1730085949::1::::<><>::
+::res://scenes/::1730521989
+bg.tscn::PackedScene::1496587574224242254::1730516349::0::1::::<><>::uid://ku5lg5ht7tly::::res://sprites/GrassetPack/GrassetPack.png
+Echo.tscn::PackedScene::834695192817639059::1730521988::0::1::::<><>::res://echo.gd<>uid://bnkn33uq2rc2r::::res://sprites/EchoSpritesheet.png
+game_over.tscn::PackedScene::8560643243949177713::1730521989::0::1::::<><>::uid://be02sx43qwbhr::::res://Main_ Story_Font_majorL retro by Catman Industries.ttf
+Global.gd::GDScript::-1::1730096671::0::1::::<>Node<>::
+ground.tscn::PackedScene::4454488595430894858::1730516349::0::1::::<><>::uid://ku5lg5ht7tly::::res://sprites/GrassetPack/GrassetPack.png<>uid://chvvjnsi5j261::::res://sprites/ground.png<>uid://dwdctpvmd5xgt::::res://sprites/tile_0042.png
+hud.tscn::PackedScene::3681556854371579524::1730521988::0::1::::<><>::uid://be02sx43qwbhr::::res://Main_ Story_Font_majorL retro by Catman Industries.ttf
+main.tscn::PackedScene::3623660669492681774::1730521988::0::1::::<><>::res://main.gd<>uid://vk7tw77xdles::::res://scenes/bg.tscn<>uid://b4p11np75v5y1::::res://scenes/ground.tscn<>uid://l5lkp5yy3b20::::res://scenes/Echo.tscn<>uid://bspmx6iy24yee::::res://scenes/hud.tscn<>uid://dt73sqj2tpqkv::::res://scenes/game_over.tscn
+rock.gd::GDScript::-1::1730508440::0::1::::<>RigidBody2D<>::
+rock.tscn::PackedScene::4763089855059141580::1730516349::0::1::::<><>::res://scenes/rock.gd<>uid://ku5lg5ht7tly::::res://sprites/GrassetPack/GrassetPack.png
+::res://sprites/::1730514913
+Basic Charakter Spritesheet copy.png::CompressedTexture2D::576025446033664671::1729896489::1729896490::1::::<><>::
+EchoSpritesheet.png::CompressedTexture2D::3320360253977032551::1730514869::1730514913::1::::<><>::
+ground.png::CompressedTexture2D::5308807045694914764::1730090808::1730090834::1::::<><>::
+tile_0042.png::CompressedTexture2D::8709765929289505819::1729896866::1729896869::1::::<><>::
+::res://sprites/GrassetPack/::1730087413
+GrassetPack.png::CompressedTexture2D::745017506806418922::1729895732::1729895736::1::::<><>::
+GrassetPackBig.png::CompressedTexture2D::7528654950608595459::1729895732::1729895736::1::::<><>::
