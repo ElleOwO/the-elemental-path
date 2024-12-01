@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://ddowbj0wagoso"]
+
+[ext_resource type="Texture2D" uid="uid://caxq7jspxs7sf" path="res://sprites/Fire Effect and Bullet 16x16.png" id="1_qq61u"]
+[ext_resource type="Script" path="res://scenes/fire_obstacle.gd" id="1_xu5aa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kk1gf"]
+atlas = ExtResource("1_qq61u")
+region = Rect2(48, 0, 16, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rb4k8"]
+atlas = ExtResource("1_qq61u")
+region = Rect2(64, 0, 16, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxjer"]
+atlas = ExtResource("1_qq61u")
+region = Rect2(80, 0, 16, 34)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j7m3n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kk1gf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rb4k8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxjer")
+}],
+"loop": true,
+"name": &"FireObstacle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_07324"]
+radius = 5.41667
+height = 31.5
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvvvt"]
+radius = 6.75
+height = 33.3
+
+[node name="FireObstacle" type="StaticBody2D"]
+position = Vector2(119, 294)
+scale = Vector2(20, 20)
+script = ExtResource("1_xu5aa")
+
+[node name="FireObstacle" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_j7m3n")
+animation = &"FireObstacle"
+frame_progress = 0.631944
+
+[node name="FireCollision" type="CollisionShape2D" parent="."]
+scale = Vector2(1, 1)
+shape = SubResource("CapsuleShape2D_07324")
+
+[node name="fireobs_hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fireobs_hitbox"]
+shape = SubResource("CapsuleShape2D_cvvvt")
+
+[connection signal="area_entered" from="fireobs_hitbox" to="." method="_on_fireobs_hitbox_area_entered"]

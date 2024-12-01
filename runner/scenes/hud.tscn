@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://bspmx6iy24yee"]
+
+[ext_resource type="Script" path="res://scenes/hud.gd" id="1_1u387"]
+[ext_resource type="FontFile" uid="uid://be02sx43qwbhr" path="res://Main_ Story_Font_majorL retro by Catman Industries.ttf" id="1_6pthw"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_1u387")
+
+[node name="ScoreLayer" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 100.0
+offset_bottom = 31.0
+theme_override_fonts/font = ExtResource("1_6pthw")
+theme_override_font_sizes/font_size = 24
+text = "SCORE:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HighScoreLabel" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -168.0
+offset_top = 4.0
+offset_bottom = 31.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("1_6pthw")
+theme_override_font_sizes/font_size = 24
+text = "HIGH SCORE:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartLabel" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -214.0
+offset_top = -32.0
+offset_right = 218.0
+offset_bottom = 145.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_6pthw")
+theme_override_font_sizes/font_size = 24
+text = "PRESS SPACE TO PLAY
+
+
+SPACE = JUMP
+
+E = EARTH PUSH | R = FIRE SLASH
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Return" type="Button" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -74.5
+offset_top = 200.0
+offset_right = 74.5
+offset_bottom = 255.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+text = "Main Menu"
+
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]

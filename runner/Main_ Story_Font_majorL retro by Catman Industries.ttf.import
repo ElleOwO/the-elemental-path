@@ -1,0 +1,34 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://be02sx43qwbhr"
+path="res://.godot/imported/Main_ Story_Font_majorL retro by Catman Industries.ttf-0e2b2715f2022e002a6ef1c04fdcc1cd.fontdata"
+
+[deps]
+
+source_file="res://Main_ Story_Font_majorL retro by Catman Industries.ttf"
+dest_files=["res://.godot/imported/Main_ Story_Font_majorL retro by Catman Industries.ttf-0e2b2715f2022e002a6ef1c04fdcc1cd.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

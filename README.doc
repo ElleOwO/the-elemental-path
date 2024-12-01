@@ -1,0 +1,27 @@
+CTRLS
+-------
+Q - AIR
+W - WATER
+E - EARTH
+R - FIRE
+-------
+Implementation of air ability
+-------
+-Created a new scene for the Spike obstacle with temporary spike assets
+-Spike assets do not have collisions yet
+Changes in echo.gd
+-GRAVITY changed from const variable to var variable so I can change gravity 
+for floating effect when pressing 'Q'
+-In physics method elif statement added under jump conditional
+-Gravity set to 2000 so it is heavy enough to not hit ceiling
+-Velocity.y set to -900 so that it is light enough to float
+Changes in main.gd
+-variable to preload spike_scene added
+-elif statement in generate_obs method added for adding spike_scene to array
+-spikes generated together in spike scene without having to call both sprites
+-all that was done to generate both was making the sprites closer in scene
+
+Implementation of water ability
+-------
+-created a new scene for fire obstacle, hardcoded fire location because animated sprite2d is difficult to find dimensions
+-added water sound affects and air sound affects

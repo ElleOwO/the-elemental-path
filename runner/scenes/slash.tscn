@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://krinsc7rs1ij"]
+
+[ext_resource type="Script" path="res://scenes/slash.gd" id="1_d8rpe"]
+[ext_resource type="Texture2D" uid="uid://ca5f82egowum2" path="res://sprites/fire slash still.png" id="1_dlh63"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rujnb"]
+size = Vector2(155, 276)
+
+[node name="Slash" type="Area2D"]
+script = ExtResource("1_d8rpe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(70, 65.78)
+scale = Vector2(7.445, 9.591)
+texture = ExtResource("1_dlh63")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(65.5, 55)
+shape = SubResource("RectangleShape2D_rujnb")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=3 uid="uid://brvlfrbrkhs2y"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_pxb6o"]
+[ext_resource type="PackedScene" uid="uid://dho4c5ai7sf5c" path="res://scenes/background.tscn" id="2_kvmyr"]
+[ext_resource type="PackedScene" uid="uid://b4p11np75v5y1" path="res://scenes/ground.tscn" id="3_r477m"]
+[ext_resource type="PackedScene" uid="uid://l5lkp5yy3b20" path="res://scenes/Echo.tscn" id="4_n4rl8"]
+[ext_resource type="PackedScene" uid="uid://bspmx6iy24yee" path="res://scenes/hud.tscn" id="5_0j2pw"]
+[ext_resource type="PackedScene" uid="uid://dt73sqj2tpqkv" path="res://scenes/game_over.tscn" id="6_ku17w"]
+[ext_resource type="PackedScene" uid="uid://dc1gmpof73xp3" path="res://scenes/bgmusic.tscn" id="7_6i6id"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_pxb6o")
+
+[node name="Background" parent="." instance=ExtResource("2_kvmyr")]
+
+[node name="Ground" parent="." instance=ExtResource("3_r477m")]
+z_index = 1
+position = Vector2(-630, -534)
+scale = Vector2(2, 2)
+collision_layer = 3
+collision_mask = 3
+
+[node name="Ceiling" parent="." instance=ExtResource("3_r477m")]
+z_index = 1
+position = Vector2(127, -1275)
+scale = Vector2(2, 2)
+
+[node name="Echo" parent="." instance=ExtResource("4_n4rl8")]
+position = Vector2(87, 468)
+collision_layer = 3
+collision_mask = 3
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="HUD" parent="." instance=ExtResource("5_0j2pw")]
+
+[node name="GameOver" parent="." instance=ExtResource("6_ku17w")]
+process_mode = 2
+
+[node name="bgmusic" parent="." instance=ExtResource("7_6i6id")]

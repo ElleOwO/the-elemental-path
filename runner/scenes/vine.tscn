@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2ioou35gy6qr"]
+
+[ext_resource type="Script" path="res://scenes/vine.gd" id="1_occcl"]
+[ext_resource type="Texture2D" uid="uid://cwemxnbkt72yr" path="res://assets/vine_proto_2.png" id="2_vlg1n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1wu3w"]
+size = Vector2(154, 523.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tf4uo"]
+size = Vector2(166, 542)
+
+[node name="Vine" type="StaticBody2D" groups=["vine"]]
+script = ExtResource("1_occcl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-6.08, 272.701)
+scale = Vector2(12.37, 17.0812)
+texture = ExtResource("2_vlg1n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 257.25)
+shape = SubResource("RectangleShape2D_1wu3w")
+
+[node name="Vine_hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vine_hitbox"]
+position = Vector2(-4, 256)
+shape = SubResource("RectangleShape2D_tf4uo")
+
+[connection signal="area_entered" from="Vine_hitbox" to="." method="_on_vine_hitbox_area_entered"]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxl3r78agmayq"]
+
+[ext_resource type="AudioStream" uid="uid://c0hwpnwyduahl" path="res://audio/Look Again Kat.mp3" id="1_n42c6"]
+
+[node name="BackgroundMusic" type="AudioStreamPlayer"]
+stream = ExtResource("1_n42c6")
+volume_db = -20.0
+autoplay = true

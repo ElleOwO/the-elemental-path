@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://8t75tb0hgbn4"]
+
+[ext_resource type="Texture2D" uid="uid://bmvwpdgp377tx" path="res://sprites/platform 8bit.png" id="1_s6dx3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m3prc"]
+size = Vector2(20, 4.7105)
+
+[node name="Platform" type="StaticBody2D"]
+texture_filter = 1
+scale = Vector2(26.395, 7.465)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-0.785083, 4.90677)
+texture = ExtResource("1_s6dx3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.785084)
+shape = SubResource("RectangleShape2D_m3prc")

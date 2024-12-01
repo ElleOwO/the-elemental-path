@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqikuy6nwd7nq"]
+
+[ext_resource type="Texture2D" uid="uid://duqkbehb6f7yf" path="res://assets/courtney-spikeshq-removebg-preview.png" id="1_ja5jx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1d7pm"]
+size = Vector2(371.784, 224.865)
+
+[node name="Spikes" type="Node2D"]
+
+[node name="Stalactites" type="Sprite2D" parent="."]
+position = Vector2(57, 47)
+rotation = 3.14159
+scale = Vector2(0.30125, 0.23125)
+texture = ExtResource("1_ja5jx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stalactites"]
+position = Vector2(-3.3195, 90.8109)
+shape = SubResource("RectangleShape2D_1d7pm")
+
+[node name="Stalagmites" type="Sprite2D" parent="."]
+position = Vector2(62, 477)
+scale = Vector2(0.30125, 0.23125)
+texture = ExtResource("1_ja5jx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Stalagmites"]
+z_index = 2
+position = Vector2(0, 95.1349)
+rotation = -3.14159
+shape = SubResource("RectangleShape2D_1d7pm")

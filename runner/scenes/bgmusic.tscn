@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dc1gmpof73xp3"]
+
+[ext_resource type="AudioStream" uid="uid://c0hwpnwyduahl" path="res://audio/Look Again Kat.mp3" id="1_ah16v"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_ah16v")
+autoplay = true
