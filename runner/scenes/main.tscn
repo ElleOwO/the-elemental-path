@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://brvlfrbrkhs2y"]
+[gd_scene load_steps=9 format=3 uid="uid://brvlfrbrkhs2y"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_pxb6o"]
 [ext_resource type="PackedScene" uid="uid://dho4c5ai7sf5c" path="res://scenes/background.tscn" id="2_kvmyr"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bspmx6iy24yee" path="res://scenes/hud.tscn" id="5_0j2pw"]
 [ext_resource type="PackedScene" uid="uid://dt73sqj2tpqkv" path="res://scenes/game_over.tscn" id="6_ku17w"]
 [ext_resource type="PackedScene" uid="uid://dc1gmpof73xp3" path="res://scenes/bgmusic.tscn" id="7_6i6id"]
+[ext_resource type="PackedScene" uid="uid://cydxp5fep4nu3" path="res://scenes/gem_stone_item.tscn" id="8_pf4yw"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_pxb6o")
@@ -39,3 +40,6 @@ position = Vector2(576, 324)
 process_mode = 2
 
 [node name="bgmusic" parent="." instance=ExtResource("7_6i6id")]
+
+[node name="GemStoneItem" parent="." instance=ExtResource("8_pf4yw")]
+position = Vector2(1000, 500)
