@@ -10,12 +10,8 @@ func _ready():
 
 
 func _on_area_entered(area: Area2D) -> void:
-	gem_sound.stop()
 	if area.name == "Echo":
-		gem_sound.play()
 		
 		queue_free()
 		print("gem picked up")
-	else:
-		gem_sound.stop()
 	queue_free()
