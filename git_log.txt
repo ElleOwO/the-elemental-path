@@ -1,10 +1,1550 @@
+commit 7b7e3142f8e9e494e51d040d09939a5eb47f77f7
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 23:39:36 2024 -0600
+
+    Fixing last minute changes
+
+commit 961f58ad357a57db98372739838601d2e3e9d719
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 22:58:38 2024 -0600
+
+    moved game over score
+
+commit 688dd3ed65c9af672a82f86c4a5e35973aa9b5e8
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 22:37:25 2024 -0600
+
+    updated tutorial page
+
+commit f6e0b0be7b2eb1d0ee90187378aba0522bb0ad65
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 22:41:22 2024 -0600
+
+    Slight changes
+
+commit a6d0a8747203bc2e90fa404af20c9716c4837128
+Merge: 0e5618c e47dd47
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 22:33:20 2024 -0600
+
+    Added diefer branch to main branch. Small conflict resolution,but will test everything before fully committing to this file
+
+commit e47dd477308a3ee2cb6885a9013fa87bcafef803
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 22:30:53 2024 -0600
+
+    small modifications to rock pillar
+
+commit 3e2a41197f153b51d022fa1297384f277e084af1
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 22:28:27 2024 -0600
+
+    Added all files from main, and added my fixes
+
+commit 0e5618ce6376f182183cd768abf42d00d982e0aa
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 21:40:33 2024 -0600
+
+    pulled diefers branch
+
+commit 54de714f6c146ab2e9d94b1c0d4874a2e65d8b8f
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 21:38:12 2024 -0600
+
+    added control ui
+
+commit c7646f70c15b5c5965d7670c6daac107d7dc1b04
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 21:08:04 2024 -0600
+
+    added an fps cap but stull cant get it to increase gradually
+
+commit 8b6636899269fb3ef6a4aba05797f25370985037
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 20:51:39 2024 -0600
+
+    buttons for wasd
+
+commit 75c7cdc9680d0f5697465339e0d55e21cb5fdf3e
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 20:46:35 2024 -0600
+
+    changes to gem sound
+
+commit 8b38e3d9ab3b1cf794031a5a0ac75b202dd8da40
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 20:09:00 2024 -0600
+
+    This is a test on my end, but I've limited the fps capacity on my computer to simulate what it may be for other computers. It works fairly well under 60fps by changing the start_speed
+
+commit 3b18c564f7fb0bed376b5fb4b99aed79c6a269a4
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 19:03:15 2024 -0600
+
+    Made minor changes, namely jump velocities in controls. And also some sprite and hitbox changes
+
+commit 0135f8c0bfe84ef7d4340fbc1906df15529d0e7e
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Dec 6 18:16:20 2024 -0600
+
+    changed spike color
+
+commit 106f073806195af9d3be268d02cd8bf94bd56ab9
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 17:50:40 2024 -0600
+
+    Added gem pickups.
+
+commit bce3bcedc15e780a7457b8b7e31625d8e042feb2
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 17:45:16 2024 -0600
+
+    New spike changes and jump changes
+
+commit 2ac571811944b146dd1737129a3cbd3f75604e18
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 17:09:22 2024 -0600
+
+    Testing a bunch of changes with the obstacles and attacks for the overall playability
+
+commit 01e218c7af6576e5a808b2c0e4cc327d78491cc2
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 15:47:05 2024 -0600
+
+    Updated with new files from group. Started working on fixing bugs, and on my end have changed the controls to see if it can make for better game play
+
+commit 7bee1fc1113a5f8d9b09684677d936bc19fd23eb
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:53:37 2024 -0600
+
+    Added menu button optiom right after gameover scene.
+
+commit 289f92adcdcfd56867392d5c7761eacb670dbbee
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:44:59 2024 -0600
+
+    Edited game over scene.
+
+commit 305470555af48e83bb8edabc9c8d0f72f3677694
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:38:04 2024 -0600
+
+    Edited menu.
+
+commit b3217b45cbcc72f4b239767e3de10f7ae472019e
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:24:32 2024 -0600
+
+    Updated ground.
+
+commit 78677ba4a3e33cec60c2530128892a27209c5e3e
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:16:13 2024 -0600
+
+    Updated ground sprite.
+
+commit 48b913306ae317c51066280bc9aabba58771c51a
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 14:03:52 2024 -0600
+
+    Edited files for upload.
+
+commit 40c3f3abfb99edd3a8297d49f0474c7587cefef3
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 13:50:32 2024 -0600
+
+    Removed unnecessary files.
+
+commit 52c0b9d20829b8aeaf6740d87bbed3f319848c34
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 13:49:15 2024 -0600
+
+    Removed unnecessary files
+
+commit 69ce04c45bfde7d6fc824eee32fcf76879783735
+Merge: e6bee8b e7693be
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 13:47:43 2024 -0600
+
+    Merge branch 'diefer' of github.com:ElleOwO/the-elemental-path into diefer
+
+commit e6bee8b6fa153d5169079cc0883f41957f973cc6
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Dec 6 13:47:26 2024 -0600
+
+    A few checks, but will be changing the files again to have organized files. After will work on debugging, speed testing, and overall playability
+
+commit 163d0e1984467cb1bb1044aa0b3ea20cbb376705
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 13:35:03 2024 -0600
+
+    Removed empty scene file.
+
+commit bae39e676685465c6042a5e56dcaa731032c1000
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 12:51:59 2024 -0600
+
+    Organized and removed unnecessary files for smoother upload and better maangement.
+
+commit 95b5486018748e36d3e04894d06da0e21ba1998a
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 00:31:29 2024 -0600
+
+    Updated menu bg.
+
+commit 9ac8835e5cc7e978f4fc18504b31a1cbbf5d02d9
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Dec 6 00:25:42 2024 -0600
+
+    Updated menu.
+
+commit a8619e85b73d5ca9430be1fbf3d319f4933ff4f9
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Dec 5 16:20:20 2024 -0600
+
+    Updated spikes obstacle to make it easier.
+
+commit 9a4f3345b849e5c23dcf2c162ceb7d42441aeedc
+Merge: 2ba765f 93e77f7
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Dec 5 11:30:30 2024 -0600
+
+    Merge branch 'mary' of https://github.com/ElleOwO/the-elemental-path into mary
+
+commit 2ba765ffcc365f051d70095a74c0e486f26699ca
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Dec 5 11:30:10 2024 -0600
+
+    resolve merge conflicts.
+
+commit 93e77f7a9af322136597bbfe4427023cc3934926
+Merge: 940a579 e7693be
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Thu Dec 5 11:24:32 2024 -0600
+
+    Merge pull request #33 from ElleOwO/diefer
+    
+    Diefer
+
+commit e7693be0cc01459fb7c1a77999db7015bf7fbfbf
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 11:08:45 2024 -0600
+
+    hid return button
+
+commit cc026168d3e1247bd7301e9621c98969a74f3efe
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 11:06:29 2024 -0600
+
+    fixed hud curroption bug
+
+commit 8b263a0da7caa7543c2f6b7a8a27e7a582a7f561
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 10:58:47 2024 -0600
+
+    test
+
+commit 5245cac6997cc5c1a483cec4b952e65ba1c18282
+Merge: 75eaca9 4faa26b
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 10:47:23 2024 -0600
+
+    Merge branch 'diefer' into menu-run-scene
+
+commit 75eaca9e11b312d65919c15434c17a453eebc195
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 10:41:32 2024 -0600
+
+    unhid startlabel for now
+
+commit 69e475f4a4b1b61306aac6a0d760140d8be8679a
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 10:15:50 2024 -0600
+
+    hid start and return label
+
+commit 4faa26b3f1ab5631c72ddf776af5f18333ef56e1
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 08:55:51 2024 -0600
+
+    Making a few extra tweaks, mainly playability and sprite sizing
+
+commit f93cda5a58a7c8da8cd433f29b3de6c3b2f0fc51
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 08:41:20 2024 -0600
+
+    Implemented a glide for the air power, and a double jump, but double jump was used as a test and can be added back later
+
+commit 5203c419d64d25f4d87b70df9c51c7c10c8e17ad
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 08:12:03 2024 -0600
+
+    Finally was able to implement the function where if the player hits a fire or spike, it's instant death
+
+commit a387bb50f17b01247ab56d0d0f8807cf347fe3ae
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 05:51:11 2024 -0600
+
+    Testing out a lot of ideas to have different outcomes for different obstacles. Finding the signals to indicate if the player hit the obstacle was odd at first, but found that obstacles find signals best when it's body_entered
+
+commit 8581d0786ddebefb625a96083876ddf240965a80
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 04:40:03 2024 -0600
+
+    Made changes to many files. Namely removing redundant and repretitive functions in echo.gd, removed the previous indication of rock obstacle, and updated the main.gd
+
+commit 2ef0dca0c4993c61293b79d5d62a6d7f3d3f5d56
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 04:37:50 2024 -0600
+
+    Made changes to the lines of code. Since there were so many repetitions of code/looking the exact same. I made it all into one function. The previous iterations of the functions are still there, just made them obsolete
+
+commit 59a115b089e855feb863e8b500d12e24ed269434
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 03:58:30 2024 -0600
+
+    implemented all new changes to file. Up to date with the rest of the group
+
+commit c22c0cb8d7a511d9198fe5b27201475674efe847
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Dec 5 03:54:57 2024 -0600
+
+    Adding in new elements to seperate zip file, will incoporate on the main file path
+
+commit 5fc0acdd1797479e457dfb8ab440147df914a3de
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 01:19:46 2024 -0600
+
+    turned on label visibility
+
+commit 6130fa590adaf5c55bf9626c3c5f86fde8b5e8a1
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Thu Dec 5 01:18:20 2024 -0600
+
+    made thhe game run the menu scene as the first thing that shows up for the player
+
+commit bda7a62b8f8f9aae1ec0cc8d9bdc296ce1b40fec
+Merge: 7638e9d 940a579
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Wed Dec 4 20:27:53 2024 -0600
+
+    Merge pull request #32 from ElleOwO/mary
+    
+    Mary
+
+commit 940a579030c1b0a164561274918d5369cf0d84f7
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Wed Dec 4 20:26:48 2024 -0600
+
+    Removed duplicated bg music scene.
+
+commit 54798992545e28ef3951b46c244d1b4a5047bef5
+Merge: 50d1daa 7638e9d
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Wed Dec 4 20:08:26 2024 -0600
+
+    Merge pull request #31 from ElleOwO/main
+    
+    pull request
+
+commit 7638e9d06c4980f6e33958a439577d987eeafcf1
+Merge: a48e7b4 c33db67
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Wed Dec 4 19:50:40 2024 -0600
+
+    Merge branch 'main' into gem-spawner
+
+commit a48e7b40d8eadbd4c3fb53136816f64b479a9a4b
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Wed Dec 4 19:44:54 2024 -0600
+
+    added and changed nodes of gemstone item scene
+
+commit f22e1c121f6b75d2c98f7339a5d4cf7dfc31194a
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Wed Dec 4 16:08:59 2024 -0600
+
+    Added several components to make the rock wall look nice and clean, and it finally works as intended
+
+commit c33db6721cf646c506afdb714b8b0a0be28eeb3c
+Merge: df20a25 50d1daa
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Wed Dec 4 14:38:43 2024 -0600
+
+    Merge pull request #30 from ElleOwO/mary
+    
+    Mary
+
+commit 50d1daa0b783b1e80a5ef5c69377eec9fde5d78d
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Wed Dec 4 14:36:19 2024 -0600
+
+    Updated platform.
+
+commit 665fe12ad53b2b7a822f09e88859db248c7c1339
+Merge: a49f7c9 df20a25
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Wed Dec 4 13:49:51 2024 -0600
+
+    Merge branch 'main' into gem-spawner
+
+commit 6b58e2170f1cde637a915ab30ee972af0321d983
+Merge: dbdd8d2 bb4a195
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Wed Dec 4 13:47:13 2024 -0600
+
+    Remove .DS_Store and update .gitignore
+
+commit dbdd8d2695c4bbb9ab9a547ec0c0d9f0956f3891
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Wed Dec 4 13:39:26 2024 -0600
+
+    Update fire obstacle.
+
+commit bb4a195a729e14a4ca6171355af866123ef87fda
+Merge: 657ed99 df20a25
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Wed Dec 4 13:36:52 2024 -0600
+
+    Merge pull request #29 from ElleOwO/main
+    
+    pull request
+
+commit 0d158a049b1ab2dec2640a1d2b44c0ab32680bd6
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Wed Dec 4 06:42:32 2024 -0600
+
+    New Sprites and test changes
+
+commit 78602ffe8f8bdc711788dc7fdb45eeec3f549c51
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Wed Dec 4 05:08:18 2024 -0600
+
+    Added changes to the rock items. I made a new rock wall that can interact the same as the others. Want to add an animation for the obstacles after breaking them. But first I want to figure our different outcomes for certain obstable deaths
+
+commit df20a2516d0d1def8a0e39904d2125832b39dfaf
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 02:21:08 2024 -0600
+
+    changed spike sprite
+
+commit 793fc232937c64ff65328ae37632c9f5f424abb2
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 01:51:15 2024 -0600
+
+    hide rock and other animations merging over each other
+
+commit add20df03ef0fc2adfeee056391d53e66d083c5a
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 01:46:10 2024 -0600
+
+    fixed fire and water playing at the same time
+
+commit c10a2abaf14d267b37264511186ebe68f17ff008
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 01:33:40 2024 -0600
+
+    spike collision added
+
+commit a49f7c91a65792491934487302bd937fe11ddbb8
+Merge: 75802c7 0edb0ef
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Wed Dec 4 01:02:15 2024 -0600
+
+    Merge branch 'main' into gem-spawner
+
+commit 26448fd6039571824f063443c5de7e696b0532b3
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 00:56:37 2024 -0600
+
+    made return to menu button consistently show up
+
+commit 657ed99e03efbb61d05e15cb32771e94d40fed27
+Merge: d837dec 0edb0ef
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Wed Dec 4 00:48:01 2024 -0600
+
+    Merge pull request #28 from ElleOwO/main
+    
+    pull request
+
+commit 0edb0ef4a5a91b46168cc57de806e53f49ad0b96
+Merge: 9dc4d97 7c8e757
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 00:40:56 2024 -0600
+
+    add menu changes and spike
+
+commit 7c8e757f1e6756ffabdb1f1629de2432f7ac7930
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Wed Dec 4 00:38:03 2024 -0600
+
+    pull from main
+
+commit 519f4b1c795150a4675d1e2cba4e73e6078b92fd
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Tue Dec 3 22:05:42 2024 -0600
+
+    Working on the earth pillar tests. Currently can be affected by fire and water attack when it shouldn't
+
+commit 75802c7484444e45ae0caa53656bd1d573916cc2
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Tue Dec 3 19:13:46 2024 -0600
+
+    added print statement and a note
+
+commit bb436aac2f600155800d437ebc448be5a97d4d00
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Tue Dec 3 19:00:06 2024 -0600
+
+    got rid of gem movement
+
+commit 55f9ecae7a7e131e4ab4326c700e414a30dcfb0a
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Tue Dec 3 18:51:47 2024 -0600
+
+    created path nodes for gems to randomly spawn in
+
+commit aac674d335a614c5e7c0455b9ef438b5814472d6
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Tue Dec 3 17:14:55 2024 -0600
+
+    added public function for gem spawner
+
+commit 024eade5e66007f9193abd2afafdacce2171403c
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Tue Dec 3 15:07:50 2024 -0600
+
+    deleted gem spawner function in gemstone script, created timer node for gems, and added signal from timer to main gd to write code for gem spawner (does not work yet)
+
+commit de4e3c175e793a9a2783ae457b7533cf1795544c
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Tue Dec 3 03:20:30 2024 -0600
+
+    added a few things to test a new rock obstacle. Making it static so that it won't fly off the map
+
+commit b69c94580070b3ed3e3b352e9aa69fc130e810be
+Merge: b40a7fb 35e1890
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Tue Dec 3 01:00:02 2024 -0600
+
+    Added new files to override conflicts
+
+commit b40a7fb7c3f341afa8d16698b410ddd3e325ba7d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Tue Dec 3 00:44:17 2024 -0600
+
+    committing changes
+
+commit 856cd2421539d0e6e51566cf721392eae84183f2
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Tue Dec 3 00:36:45 2024 -0600
+
+    added new texture for spikes
+
+commit c4480a503b0c84f524fafea04348d2fe9f191506
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Tue Dec 3 00:24:39 2024 -0600
+
+    added menu button for instructions
+
+commit ce1ed58460ba56a8b7db6339a2e2e58c1fa52e9e
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Tue Dec 3 00:04:25 2024 -0600
+
+    found out that aspect ratio ignore will fix full screen but makes obstacles far
+
+commit 1cd67f96eb05f56d4731967d608b0908488c98d7
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 23:59:58 2024 -0600
+
+    add ogv for instructions
+
+commit 8c19b9f57c3f6aea3ba20a096d8ab504b86fcdb8
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 23:56:49 2024 -0600
+
+    added menu sprite and buttons
+
+commit 5fbe87e2b8bea7aaade26d9b97aed11a2c7cecaa
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 22:43:57 2024 -0600
+
+    fixed global music repeating
+
+commit c15c8c81292c8562361afe40766105001b6b3b9c
+Merge: b96d3f8 35e1890
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 21:50:14 2024 -0600
+
+    Merge remote-tracking branch 'the-elemental-path/main' into lyin
+
+commit d837deca987e008f6d30bbf9716fc338bdc0dff8
+Merge: c11aa16 35e1890
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Mon Dec 2 16:58:48 2024 -0600
+
+    Merge pull request #27 from ElleOwO/main
+    
+    pull request
+
+commit 35e1890a2f18dc299409e6520a73a986599308cd
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Mon Dec 2 04:49:05 2024 -0600
+
+    added a print statement for when a gem is picked up
+
+commit 5c1785de845155bf95d2e9146eb29abb4ba0b5d7
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Mon Dec 2 04:32:11 2024 -0600
+
+    copied and pasted lyin's echo gd script. everything seems to be working.
+
+commit d9d36b9619d33bd55207d4be313f4c480d7858bd
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Mon Dec 2 04:21:10 2024 -0600
+
+    removed uneeded line of code
+
+commit 7bce64c4c07180ba6befa299a2ef0a292a48972d
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Mon Dec 2 04:12:42 2024 -0600
+
+    fixed corruption bug in main, ground and echo scenes
+
+commit 9dc4d97a431f61d97d113177e4564b167af105a3
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 03:09:45 2024 -0600
+
+    fudged up
+
+commit df72f4ed95b1cd3e1fa0cbde2eda6a32325e2668
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 02:58:07 2024 -0600
+
+    resolved corrupted main file
+
+commit d950362f83525658240d5ce5d3d784d9963dc221
+Merge: 5c56a4b 70a8258
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 02:43:57 2024 -0600
+
+    Merge remote-tracking branch 'the-elemental-path/main'
+
+commit b96d3f82c5d996c15d67f88bc42c0b3ab2b129b0
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 02:37:13 2024 -0600
+
+    remove large avi file
+
+commit e242c6e0c552149b799ad73db00907cb39e099ff
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 02:29:06 2024 -0600
+
+    removed annoying file
+
+commit 5c56a4bae4f4ebc051fa3328b7da2ccc6d12f60f
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 02:22:37 2024 -0600
+
+    added menu page and instruction page art
+
+commit 04190ce998d9ae186de63db957348ed2ca2ee51e
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 01:16:29 2024 -0600
+
+    Added changes to echo.gd to have double jump and air glide
+
+commit 5cfc728841cea590bc64a7858d706a0d921c9054
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 01:04:56 2024 -0600
+
+    Added changes
+
+commit 22917e5ffb5a162541aa97ae919cb36ca02622ad
+Merge: 926bea1 353ab4d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 00:39:25 2024 -0600
+
+    Adding changes from main to diefer
+
+commit 926bea1ffcbcfac2b621cc3a9bd7a47b7eacd140
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 00:38:16 2024 -0600
+
+    testing
+
+commit 70a8258f0f6fb67cccaff6ebdee43fee2eaaa193
+Merge: 353ab4d c11aa16
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Mon Dec 2 00:29:02 2024 -0600
+
+    Merge pull request #26 from ElleOwO/mary
+    
+    Mary
+
+commit c11aa1687fa44487db5b4d0732e5738f246b77f6
+Merge: bdf3de1 353ab4d
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Mon Dec 2 00:28:54 2024 -0600
+
+    Merge branch 'main' into mary
+
+commit 353ab4d414e73a5e91519d5ae7f375fd0f844aa3
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 00:28:23 2024 -0600
+
+    fixing conflicts, didn't add changes
+
+commit bdf3de1031cb53fa5eba2b92d4a0749fc058da45
+Merge: f20ba45 815e99e
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Mon Dec 2 00:28:20 2024 -0600
+
+    Merge branch 'main' into mary
+
+commit 815e99e2c657b7b15527ee2c2079086bf7647399
+Merge: 86192ed fb0fded
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 00:17:10 2024 -0600
+
+    Added changes
+
+commit aa7d23049086cdd1c29432686c4c33628ec2fd7a
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Mon Dec 2 00:15:36 2024 -0600
+
+    Stopping work to add changes from main
+
+commit fb0fded2a673846812ebbf8eb7174cfec05ad175
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 00:10:10 2024 -0600
+
+    removing large file
+
+commit 534c36c0fff57454c9e54a1b19e611ab54b7d60f
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 00:06:19 2024 -0600
+
+    Ignore large AVI file
+
+commit 0346e2adce77d5c097dd2715fc1e67f8eeb55347
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Mon Dec 2 00:04:05 2024 -0600
+
+    removed tutorial scenes folder
+
+commit f20ba458c3e3b5ba27146507f40029b247f2e25e
+Merge: 09b41fb e5921c1
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 23:56:41 2024 -0600
+
+    Merge remote-tracking branch 'origin/mary'
+
+commit 09b41fb446eef17158c93d9e51f9ca9e153866e1
+Merge: c6f9a8c 1f7d44c
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 23:55:52 2024 -0600
+
+    Save changes before rebasing
+
+commit e5921c1908310e8a407aa9e8fb928abaf6c44f4b
+Merge: 86192ed 1f7d44c
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Sun Dec 1 23:47:22 2024 -0600
+
+    Merge pull request #25 from ElleOwO/main
+    
+    dash and sprite updates
+
+commit 5a613c95f9a1762927a5aa59b4a8409fcb78071a
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Sun Dec 1 23:46:42 2024 -0600
+
+    removed large video file
+
+commit d5bd9632dd47eb2b5ec6a70a3747b381243a37e4
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Sun Dec 1 23:38:52 2024 -0600
+
+    removed random sound file and added new font for menu
+
+commit 55038b5f863d24f8257e2f2074da71b511cb0b79
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Sun Dec 1 23:37:39 2024 -0600
+
+    added new menu page, game over sound effect, full screen scaling
+
+commit 54a12a0661951370a8ba2e0c5a2685938b3b7d96
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 23:20:38 2024 -0600
+
+    Small changes, making errors, reverted back to same code
+
+commit 1f7d44ce955952d335828ee20d40740634399a7b
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Sun Dec 1 21:37:50 2024 -0600
+
+    dash and sprite updates
+
+commit 3b19ed64302c9fda94cfa62685684cbc459ca774
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Sun Dec 1 21:37:50 2024 -0600
+
+    dash and sprite updates
+
+commit 86192eddb75fe9388ddbe4e031632d862b666bd0
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 17:35:51 2024 -0600
+
+    testing sound changes
+
+commit 2cadf8288fa0232d40beb45aee1414a7ec9e7d31
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 17:35:51 2024 -0600
+
+    testing sound changes
+
+commit dc26445ab0e6b2cba97d906f50e6462e17503b02
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 17:26:52 2024 -0600
+
+    Fixed changes, and added sprites
+
+commit 12f3a04b579786ca71b0242cd334a725575c0d85
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 17:26:52 2024 -0600
+
+    Fixed changes, and added sprites
+
+commit 6857f20d2f014c66c5ea26172400829cfb44a058
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 16:56:31 2024 -0600
+
+    making changes
+
+commit 4fedb1ae7807e4f8cce39df27d97af46f41319b6
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 16:56:31 2024 -0600
+
+    making changes
+
+commit a49e722df045ebccaf8dcb5209372a2bd48013e7
+Merge: 76d83ce e1edd04
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 16:01:02 2024 -0600
+
+    Testing
+
+commit 06026cf0c518aec8b87026726ad9481411e66e2f
+Merge: ddd645d e1edd04
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 16:01:02 2024 -0600
+
+    Testing
+
+commit c6f9a8cb210d7e7cabd00264130bc5a60e120063
+Merge: d7f7d28 7911b0b
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 15:56:08 2024 -0600
+
+    Resolved merge conflicts by keeping mary branch changes
+
+commit 7911b0b9677a858111e0b928f1933c42f14fdd03
+Merge: f42dc81 8f62769
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 15:31:16 2024 -0600
+
+    Save changes before switching branches
+
+commit e1edd04111e40fc0517a245a75f8d0c8e031cc8c
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 15:07:37 2024 -0600
+
+    Imported gem pickup sound.
+
+commit 3b242d72f847f4e608d7d4d373399561bb178774
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 14:51:11 2024 -0600
+
+    Resolved merge conflicts.
+
+commit 76d83cecb51233d17b3d90f8a6d76adabc8fa369
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 05:43:37 2024 -0600
+
+    Testing changes to spike. Plan is to make spike and fire a different function so that when player hits it, it's insta death
+
+commit ddd645d248f63b05b123326bbbee17c25956e85d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 05:43:37 2024 -0600
+
+    Testing changes to spike. Plan is to make spike and fire a different function so that when player hits it, it's insta death
+
+commit 84be96d7ae93f3d3a4e1e0fcbfa47ff08594bd35
+Merge: 9cc9699 9635b85
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 03:30:20 2024 -0600
+
+    Merge branch 'main' into diefer
+
+commit 0b3f10aac88847064fada32f79e6c471937673ac
+Merge: 11d1623 7e39564
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 03:30:20 2024 -0600
+
+    Merge branch 'main' into diefer
+
+commit 9cc96997b40d3d9849774b456631d5ccc1715dc7
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 03:28:45 2024 -0600
+
+    Doing testing changes
+
+commit 11d162386f7ddeca9074396d2062dbe9d68bcd2d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Dec 1 03:28:45 2024 -0600
+
+    Doing testing changes
+
+commit 5589eba20e04dfed61a3df80122493f25c2d61a0
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 01:30:43 2024 -0600
+
+    “Created, imported and animated new echo beta version sprite sheet.”
+    “Created, imported and animated new echo beta version sprite sheet.
+
+commit b5566239b3a920d7a9cbfc064604a891c159c9b4
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sun Dec 1 00:06:51 2024 -0600
+
+    Merge branch 'main' into 'mary'.
+
+commit f42dc81c6d3262c3e0d8b96947dcb8409396c451
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Sat Nov 30 23:30:53 2024 -0600
+
+    Save local changes.
+
+commit 8f6276924f47384852d0da2341af22953406e192
+Merge: 9f6a568 9635b85
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Sat Nov 30 23:13:07 2024 -0600
+
+    Merge pull request #23 from ElleOwO/main
+    
+    pull request
+
+commit 9efc6544a635e49f53eb08a715407f057ce91c8c
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:50:16 2024 -0600
+
+    Fixed main.gd: removed a whole lot of unecessary lines of code that wasn't doing anything
+
+commit 7827ec5fa720bc15585a1524485dd75f257b7681
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:50:16 2024 -0600
+
+    Fixed main.gd: removed a whole lot of unecessary lines of code that wasn't doing anything
+
+commit 87b16d761aaa4608b91c573dda8adf79b28ea084
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:47:10 2024 -0600
+
+    Added new lines. The double jump/air jump is fixed now. Before the q would affect the jump for the whole game. Now the jump is better.
+
+commit 0cda14d75a7c981912c796b6f8551e88bc969014
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:47:10 2024 -0600
+
+    Added new lines. The double jump/air jump is fixed now. Before the q would affect the jump for the whole game. Now the jump is better.
+
+commit 94b7a11d3d7db0a1db36fe7169be9c0668882544
+Merge: 1a4e035 9635b85
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 21:34:47 2024 -0600
+
+    Merge branch 'gemstone' into katbranch
+
+commit 1a4e035b910b0dd69db16b94362009bea21026a7
+Merge: fe49380 0eaba55
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 21:34:14 2024 -0600
+
+    Merge branch 'main' into katbranch
+
+commit f4e72c28abaab4332983a80705bff60d068085b0
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:26:46 2024 -0600
+
+    Fixed the water and fire powers to collide with the obstacles. Water attack now hits fire but doesn't hit vine, and fire attack can hit vine but not fire obs
+
+commit 78f0674225b6afd7613824937d1233634c441630
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 21:26:46 2024 -0600
+
+    Fixed the water and fire powers to collide with the obstacles. Water attack now hits fire but doesn't hit vine, and fire attack can hit vine but not fire obs
+
+commit 9635b85690aded1a66c2bf2a3408d91706e13e48
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 21:04:54 2024 -0600
+
+    turned gemstone node into a scene and changed its position temporarily, pick up collison works
+
+commit 7e395641873fa8f64a7e37f2b01b61455f198a26
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 21:04:54 2024 -0600
+
+    turned gemstone node into a scene and changed its position temporarily, pick up collison works
+
+commit 7af8cefd61f3d14f0fa9ac121ad5e27bbf86ec62
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 20:34:31 2024 -0600
+
+    created a gem spawner, does not work yet
+
+commit 8fbcccb6a9e2f4ad2a62a7233fe6b158f8bddb1b
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 20:34:31 2024 -0600
+
+    created a gem spawner, does not work yet
+
+commit 82a24113ae035c559ebece8c74231fd680442bec
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:39:26 2024 -0600
+
+    added code to gemstone script where it should disappear when player picks it up. Not tested yet.
+
+commit 4076cf1592d85aecd5f1ef23d6e7284ef8b8eec2
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:39:26 2024 -0600
+
+    added code to gemstone script where it should disappear when player picks it up. Not tested yet.
+
+commit 72182697daf18a8c7d7dfb2a5639436558ffd37c
+Merge: fe63ede 0eaba55
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:14:19 2024 -0600
+
+    Merge branch 'main' into gemstone
+
+commit 82d25d1b2e51a0ee3c0e3823994e0a06e0952de1
+Merge: 2387038 5c411bf
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:14:19 2024 -0600
+
+    Merge branch 'main' into gemstone
+
+commit fe63ede311024794612e65f1f039a4bb9d589bb9
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:03:02 2024 -0600
+
+    Created a gemstone coin-like object, imported gem sprite, collision shape and script
+
+commit 2387038f6e9b6e0d1c6f4efe08853556b78fcce2
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Sat Nov 30 19:03:02 2024 -0600
+
+    Created a gemstone coin-like object, imported gem sprite, collision shape and script
+
+commit 0eaba551b7f9329cde0a2ebddcfcc828f48d5d19
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:45:34 2024 -0600
+
+    Added the same functions for fire obstacle as vine. But when you use the attack from water, it can destroy the vine. Need to be fixed
+
+commit 5c411bfe2a73ae17b32b46a9a8cf3d7fa1e196c6
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:45:34 2024 -0600
+
+    Added the same functions for fire obstacle as vine. But when you use the attack from water, it can destroy the vine. Need to be fixed
+
+commit 3e9db27119c82acf81146bba1b6917a2ddd96a82
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:33:12 2024 -0600
+
+    Added a new fire_obstacle script to work with the fire. Currently tested it to use perform_attack in the echo.gd to see if the water can destroy it. Fire_obstacle has been changed to a staticbody2D
+
+commit 772528bb9679788c9d188a230f54652c8cf43350
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:33:12 2024 -0600
+
+    Added a new fire_obstacle script to work with the fire. Currently tested it to use perform_attack in the echo.gd to see if the water can destroy it. Fire_obstacle has been changed to a staticbody2D
+
+commit d28e826a86ad29c745347f90374be6682d04203d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:24:25 2024 -0600
+
+    Added new animation for water power
+
+commit 7bf9ca73f0408531713ce3ccc014df4eed9b283b
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 30 04:24:25 2024 -0600
+
+    Added new animation for water power
+
+commit ad5951e8d6a406b4a6fb06720043af98f86dcfb0
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 20:56:21 2024 -0600
+
+    small changes to jump and gravity integers
+
+commit 44371a76d8dcdd5dcd9c198a2ba2740f08fffbca
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 20:56:21 2024 -0600
+
+    small changes to jump and gravity integers
+
+commit 374e4a4790ae012cf9b833761e76162b3d5c77da
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 19:06:49 2024 -0600
+
+    Fixed the tscn, and readded the fire_slash_hitbox to make everything work
+
+commit 20b87e65ed1a1aa4e055fd5438f893dec8d34f08
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 19:06:49 2024 -0600
+
+    Fixed the tscn, and readded the fire_slash_hitbox to make everything work
+
+commit e1f8121d6abc1cf6634d2fb8e9de7f586d573e3f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 19:03:06 2024 -0600
+
+    Manually fixed the echo sprite as it won't read the collisionshape2d
+
+commit c506e32ee15df108a94255b2d47d7dcef1dd084e
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 19:03:06 2024 -0600
+
+    Manually fixed the echo sprite as it won't read the collisionshape2d
+
+commit f360fd5724350d0e14e14527709896b32b72ebab
+Merge: a0208ff 0b9c905
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:45:38 2024 -0600
+
+    Merge branch 'main' into diefer
+
+commit cf1dcce2525387592bc73c500b5dc31111978b21
+Merge: 605d9d1 2d0fb5c
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:45:38 2024 -0600
+
+    Merge branch 'main' into diefer
+
+commit 0b9c90583c00d8b27f4c71adb66f4bcebf524a92
+Merge: 613f613 2e95f0d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:39:30 2024 -0600
+
+    Adding content
+
+commit 2d0fb5c88017ffd12724818486e4f48c3baa3ff5
+Merge: a39a677 8708636
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:39:30 2024 -0600
+
+    Adding content
+
+commit a0208ff9a4af0814b550c60e854d1542d66bbc84
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:34:46 2024 -0600
+
+    Updating
+
+commit 605d9d1aebacf8c81173eb198f65b98afd4a3baa
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 18:34:46 2024 -0600
+
+    Updating
+
+commit 9f6a5689b1bfe3b96757a3f66591af14c3dcf17e
+Merge: 023032a 2e95f0d
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Fri Nov 29 16:53:01 2024 -0600
+
+    Merge pull request #22 from ElleOwO/main
+    
+    pull request
+
+commit 2e95f0de3b05ae21073c562686da7d645de2dd1b
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:57:28 2024 -0600
+
+    delete ready() cause not doing. hide fire
+
+commit 8708636ca60da4e53cceb697fd2efd7af11c98ec
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:57:28 2024 -0600
+
+    delete ready() cause not doing. hide fire
+
+commit 62aaaf4d87c1e8ff875a11f07a5d12ce9211530a
+Merge: a98a9ea cdd0d3f
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:43:19 2024 -0600
+
+    Merge remote-tracking branch 'origin/lyin'
+
+commit 79fc523eeadf3af5a49f4a3d594abf544a770e77
+Merge: 837b760 8d62b42
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:43:19 2024 -0600
+
+    Merge remote-tracking branch 'origin/lyin'
+
+commit a98a9eacd232b8aa181e6997a585c2f6c2260757
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:39:51 2024 -0600
+
+    hide fire
+
+commit 837b7603141d4cbd61c511f80fff7cc61e9886c3
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:39:51 2024 -0600
+
+    hide fire
+
+commit bd8111cd356f0cb4f586e90ae7755fc9745aabd3
+Merge: f0471e4 023032a
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:23:18 2024 -0600
+
+    Merge branch 'mary'
+
+commit e9882be879cd6643ae95cc92634afba150b27eb1
+Merge: fc51205 708bfb8
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 29 13:23:18 2024 -0600
+
+    Merge branch 'mary'
+
+commit 613f6132355b0211cb5d4dc290c94461bc7e657f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 01:57:51 2024 -0600
+
+    Made many changes. Player is now able to collide to the vine obstacle and the fire slash works properly now. Fire ability has been changed to be apart of the echo script instead. Will be removing any indications of slash.gd soon. Also changes made for the rock obstacle. Rock had to be changed since the previous obstacles were not deleting properly after being removed
+
+commit a39a677470a70302b17164eb07972219a19ef519
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 29 01:57:51 2024 -0600
+
+    Made many changes. Player is now able to collide to the vine obstacle and the fire slash works properly now. Fire ability has been changed to be apart of the echo script instead. Will be removing any indications of slash.gd soon. Also changes made for the rock obstacle. Rock had to be changed since the previous obstacles were not deleting properly after being removed
+
+commit f0471e4363ad98d988ea9fbf62a382d7a33b40d1
+Merge: 820944d 1bbea9f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 22:24:43 2024 -0600
+
+    Merge branch 'diefer'
+
+commit fc512056a00be1f1eeca6a60e87a559eba3f6d0b
+Merge: 028ac9a ca38179
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 22:24:43 2024 -0600
+
+    Merge branch 'diefer'
+
+commit 1bbea9f316101039dc172ed0120abc69596ba783
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 22:17:28 2024 -0600
+
+    still working on changes to vine and slash
+
+commit ca3817927b84df4ee7b52bf5d9c5797eaa79d4fc
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 22:17:28 2024 -0600
+
+    still working on changes to vine and slash
+
+commit cdd0d3f0886a2356d605a2da90892208650fc5e0
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 22:08:38 2024 -0600
+
+    added menu
+
+commit 8d62b42d89aadd6b48f5f537f20386966da05330
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 22:08:38 2024 -0600
+
+    added menu
+
+commit 3d5e670e4ef427f0535f7d41388ef3d335e93a05
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 21:57:26 2024 -0600
+
+    connected main menu to hud
+
+commit 3f26b6f96a75da1ac2b92d45a25758138231fe03
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 21:57:26 2024 -0600
+
+    connected main menu to hud
+
+commit 023032a1005b1ae2fa89538fba53077622532323
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 21:54:03 2024 -0600
+
+    Created/updated beta version background & ground.
+
+commit 708bfb8b57ecfa76a12d770a83312909bbafc129
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 21:54:03 2024 -0600
+
+    Created/updated beta version background & ground.
+
+commit 8bb4ce2b9266ca9717162b50750767140c665524
+Author: ElleOwO <76455872+ElleOwO@users.noreply.github.com>
+Date:   Thu Nov 28 21:30:11 2024 -0600
+
+    Update README.doc
+    
+    added controls
+
+commit d95e3d1c51ac02d69cab3a6a7cde06e04222b940
+Author: ElleOwO <76455872+ElleOwO@users.noreply.github.com>
+Date:   Thu Nov 28 21:30:11 2024 -0600
+
+    Update README.doc
+    
+    added controls
+
+commit 50dc4b8f730103031b51e56b7f8d7b1a3784f8f7
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 21:12:24 2024 -0600
+
+    Currently making changes to the fire slash attack and vine obstacle. Planning to add the attack itself to the echo.gd and make it so that it collides with the vine. The vine obstacle has since changed from area2d to a staticbody2d
+
+commit 427122f7232d8a683d22788c492e133d3b326261
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 21:12:24 2024 -0600
+
+    Currently making changes to the fire slash attack and vine obstacle. Planning to add the attack itself to the echo.gd and make it so that it collides with the vine. The vine obstacle has since changed from area2d to a staticbody2d
+
+commit c364e6e07ced290ad2db7361ec639c150d4eb866
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 21:10:50 2024 -0600
+
+    water effect and water/air sound
+
+commit 0415d33a2e9da3e8645c185a95467b1628b34a9d
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 20:10:41 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit 092ed15c74f6e03ffdac106dabb5bec2af1df760
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 20:10:41 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit c6b1311373344692ebb4b737cf9ed88919d3b99f
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 20:08:29 2024 -0600
+
+    add air ability and readme.doc
+
+commit 69da67b1bb2e51d1afca41673dcd0b8b4d25272b
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:53:54 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit b21ac6a8972ad753c3ee1a18787d90bf0faeca41
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:53:54 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit fe7eca03f1d879d93c49e9ff028c1f8e1ad8149b
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:49:00 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit 0d92e2af92ffe15fcb1c49001e87e0f226fe0f35
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:49:00 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit 820944d1af980eb70406135e3a7bd3225c080aed
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:43:03 2024 -0600
+
+    checking changes
+
+commit 028ac9a82e70a91ff40adc4c3b4f687389301bc7
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:43:03 2024 -0600
+
+    checking changes
+
+commit d8c20ae0490600bcb2637cfd156ffa14d3ebd77d
+Merge: ade4d8b 86f270c
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:39:59 2024 -0600
+
+    Added more files
+
+commit 1d65d39ae0f9afe5324e85f59556743faf2584c9
+Merge: 7519c18 7453642
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:39:59 2024 -0600
+
+    Added more files
+
+commit ade4d8b092be4dd33d56d902e3fc185441eee8a6
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:35:05 2024 -0600
+
+    Removed previous indications of game files to add new ones
+
+commit 7519c185785613ac3d3c3c00f8887803c1e8ee8e
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:35:05 2024 -0600
+
+    Removed previous indications of game files to add new ones
+
+commit 86f270c4662ef49219f38befecc5b80f6ace0cab
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:30:56 2024 -0600
+
+    Completely removed the previous files and added the new ones to the branch
+
+commit 7453642c10c6af2848f6711be2e46b8bb2fd9126
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 19:30:56 2024 -0600
+
+    Completely removed the previous files and added the new ones to the branch
+
+commit 4ae423c7f60145e710fd4754e95f890137ed4c0b
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:30:02 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit fe5c7cfa1ca1a50ec729cab68b509a1eae90fc9c
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 19:30:02 2024 -0600
+
+    Added background music and fixed audio bugs.
+
+commit 178f39d2faf958b82dfaea53416ff58cc09d53f8
+Merge: af64103 9e0906f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 18:52:29 2024 -0600
+
+    testing
+
+commit 0e69eaa32b20c65ef387a225f2d0d7a682753e74
+Merge: 64e66c4 9e0906f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 18:52:29 2024 -0600
+
+    testing
+
+commit af6410317967126c2d5c8be17a49224c1dedb04a
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 18:46:16 2024 -0600
+
+    no changes
+
+commit 64e66c4be2896ec2e62624b911e6dfb6fdfeba17
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 28 18:46:16 2024 -0600
+
+    no changes
+
+commit 9e0906f8b2a8d877691b0086e48bbce7e96a4b14
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 18:41:17 2024 -0600
+
+    repath godot project
+
+commit d7f7d28c8e1febc9163c31a9f7904325f7f6b4e9
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 28 18:09:56 2024 -0600
+
+    Uploaded new audio features.
+
+commit 4f092a5917ee5ffbdcc4bbb09a2e8c642abae208
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 18:07:47 2024 -0600
+
+    scaled down echo
+
+commit fef25b6d31eb4c94f21f11e91d4f1cd866c84333
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Thu Nov 28 01:03:12 2024 -0600
+
+    added rock, fire, jump sound, glitching bg music
+
+commit ad628fa436990bda65f3e40972e368ea9640a980
+Merge: 0467a47 a14a6d3
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 21 01:14:50 2024 -0600
+
+    Merge branch 'diefer'
+
+commit a7ba05ae9aca0d491dce481935e1710331cd225f
+Merge: 4117ae3 1644a8f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 21 01:14:50 2024 -0600
+
+    Merge branch 'diefer'
+
+commit feb80270c6410c001518c5d2304c263c6976c3f5
+Merge: 9dc65b4 a14a6d3
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Fri Nov 8 22:00:16 2024 -0600
+
+    Merge pull request #19 from ElleOwO/diefer
+    
+    A few changes made for the game. Expanded the game background to fit …
+
+commit 82056c97bdf084b62eabf4e24eecfb940003351d
+Merge: 2ef5e7c 1644a8f
+Author: maryandrearv <69656533+maryandrearv@users.noreply.github.com>
+Date:   Fri Nov 8 22:00:16 2024 -0600
+
+    Merge pull request #19 from ElleOwO/diefer
+    
+    A few changes made for the game. Expanded the game background to fit …
+
+commit a14a6d30ec4726fa5dcb4594e6e3c573ad70c450
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 21:35:39 2024 -0600
+
+    A few changes made for the game. Expanded the game background to fit a wider screen. Also expanded ground and ceiling. Fixed Echo earth ability. Added control functions to start menu.
+
+commit 1644a8f1bbc4e865dfb84d949a85c0fa623586e1
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 21:35:39 2024 -0600
+
+    A few changes made for the game. Expanded the game background to fit a wider screen. Also expanded ground and ceiling. Fixed Echo earth ability. Added control functions to start menu.
+
 commit 9dc65b4dd6752bd5c34d5429b81bcf076ffac99c
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Nov 8 20:35:59 2024 -0600
 
     Removed unecessary files
 
+commit 2ef5e7c4fa15deb7959b68e5788de50d352211fe
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 20:35:59 2024 -0600
+
+    Removed unecessary files
+
 commit 3f905b33c1b245f01a1443a7cf02e1ab50cf9fd1
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 20:32:15 2024 -0600
+
+    Made changes to the code after merging everything, should run smoother
+
+commit f8062f5107812a1e339aa4c2b8e51ee905017757
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Nov 8 20:32:15 2024 -0600
 
@@ -17,13 +1557,32 @@ Date:   Fri Nov 8 20:14:41 2024 -0600
 
     Echo sprite
 
+commit c8fe0e39fd9b6278b4a7e8d71445412f8ce4c70f
+Merge: 6b742cd ee23aa0
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 20:14:41 2024 -0600
+
+    Echo sprite
+
 commit 4d5adfe3f1998543c3cda600e0d1cca92eed8216
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Nov 8 20:14:05 2024 -0600
 
     testing
 
+commit 6b742cd639fbfa53f1827af399010cfa5a813481
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 20:14:05 2024 -0600
+
+    testing
+
 commit 979e8c12edff6fb9ca117203c68343127e436e78
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 19:57:32 2024 -0600
+
+    Testing merge
+
+commit ee23aa04a19145839201027596f54b1dad470e4e
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Nov 8 19:57:32 2024 -0600
 
@@ -36,6 +1595,13 @@ Date:   Fri Nov 8 19:52:25 2024 -0600
 
     Testing merges
 
+commit 57ff02d0993458b9a9173c4079f00eb92533a83e
+Merge: e23e8a5 c3570e3
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 19:52:25 2024 -0600
+
+    Testing merges
+
 commit 8e014601cb6a0690949e74b830ec284f432419db
 Merge: 07de608 1eb208a
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
@@ -43,7 +1609,20 @@ Date:   Fri Nov 8 19:46:17 2024 -0600
 
     testing changes and merges
 
+commit e23e8a50896e0296e4286e25a7e620880ea0b111
+Merge: 2e6d843 81937df
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 19:46:17 2024 -0600
+
+    testing changes and merges
+
 commit 6a8a084015d39b456281ae30e5bd4a1c0ac79897
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Nov 8 19:33:49 2024 -0600
+
+    Updated obstacles.
+
+commit c3570e33efe7063de1924611baf8e4aa74bd3976
 Author: maryandrearv <maryandreavargas@gmail.com>
 Date:   Fri Nov 8 19:33:49 2024 -0600
 
@@ -58,7 +1637,22 @@ Date:   Fri Nov 8 16:01:26 2024 -0600
     
     Slight echo sizing
 
+commit 4117ae3183a40c6f9daff9514f18a93c34e33318
+Merge: c702fe6 2e6d843
+Author: dls702 <dls702@usask.ca>
+Date:   Fri Nov 8 16:01:26 2024 -0600
+
+    Merge pull request #17 from ElleOwO/diefer
+    
+    Slight echo sizing
+
 commit 07de60858ea2f486dcc656daebfd970539c65005
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Nov 8 15:57:24 2024 -0600
+
+    Slight echo sizing
+
+commit 2e6d84351a9fa52eaeb1130738daa72995f3e43e
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Nov 8 15:57:24 2024 -0600
 
@@ -70,13 +1664,31 @@ Date:   Fri Nov 8 15:18:10 2024 -0600
 
     fixed animation
 
+commit c702fe657286a8338aa13fa28f2577a30235ef15
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 8 15:18:10 2024 -0600
+
+    fixed animation
+
 commit 8cf0321ebb92ba41fea4354b146a8dee5d4ff419
 Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
 Date:   Fri Nov 8 14:54:06 2024 -0600
 
     finish surgery
 
+commit 9237cfe9d01fd3d89490f1904c9cae1eb96956f3
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 8 14:54:06 2024 -0600
+
+    finish surgery
+
 commit 6f0d50497e40e1f3e5459377214303e79d99a6e6
+Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
+Date:   Fri Nov 8 14:37:33 2024 -0600
+
+    change entry point
+
+commit ff115f12fc57796e37a4a464f4dbac46ed8f635c
 Author: Katherine Nguyen <katherinenguyen0205@gmail.com>
 Date:   Fri Nov 8 14:37:33 2024 -0600
 
@@ -103,7 +1715,19 @@ Date:   Fri Nov 8 09:51:26 2024 -0600
 
     Updated ground and ceiling.
 
+commit 81937df1e52633eaeaf1471f8df6f408f4ab122e
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Nov 8 09:51:26 2024 -0600
+
+    Updated ground and ceiling.
+
 commit faaa1a8fab2b7a611054b3b1bb704664ac2fc6bd
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Fri Nov 8 09:24:37 2024 -0600
+
+    Created and updated infinite scrolling background.
+
+commit c7167235cb6920886ebc5c34061d68f795793c3a
 Author: maryandrearv <maryandreavargas@gmail.com>
 Date:   Fri Nov 8 09:24:37 2024 -0600
 
@@ -118,7 +1742,22 @@ Date:   Thu Nov 7 22:49:19 2024 -0600
     
     Diefer
 
+commit b156509367cbcc362d016f542f9c69f299de3691
+Merge: 604ee6f 75ba5b7
+Author: dls702 <dls702@usask.ca>
+Date:   Thu Nov 7 22:49:19 2024 -0600
+
+    Merge pull request #15 from ElleOwO/diefer
+    
+    Diefer
+
 commit 023c3674914d87fe9a6884311b4b73b49bbfea4f
+Author: maryandrearv <maryandreavargas@gmail.com>
+Date:   Thu Nov 7 22:37:08 2024 -0600
+
+    Initial commit.
+
+commit d581499362c544f9ad9b7f36e255c017cb86c278
 Author: maryandrearv <maryandreavargas@gmail.com>
 Date:   Thu Nov 7 22:37:08 2024 -0600
 
@@ -130,7 +1769,19 @@ Date:   Thu Nov 7 20:35:05 2024 -0600
 
     Fixed a few sizings and placements for platform, and shortened the height of echo a bit. Still encountering bugs
 
+commit 75ba5b74d13ab5fa0af98a3e6f3c6d80913a115a
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 7 20:35:05 2024 -0600
+
+    Fixed a few sizings and placements for platform, and shortened the height of echo a bit. Still encountering bugs
+
 commit f60e946e1d163ba0d139e6123b509eda39e70d08
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 7 20:04:17 2024 -0600
+
+    Added a platform obstacle that echo can jump over or stay under. The plan with this is to have some obstacles form under or over the platform at times to trick players. Also fixed a few sprite changes. Temporarily reverted the vine back to Area2D until I can figure out how to make the vine stop the player
+
+commit f97ce075f7b7305c6be560b4761f49af7ee6ffc2
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Thu Nov 7 20:04:17 2024 -0600
 
@@ -142,7 +1793,19 @@ Date:   Thu Nov 7 06:19:54 2024 -0600
 
     Testing out to see vine as a StaticBody2D. It behaves as it should as an obstacle, but now it won't dissapear if it's hit with a fire slash
 
+commit c078a061121f90ded603ab1b89b18f2764d0368f
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 7 06:19:54 2024 -0600
+
+    Testing out to see vine as a StaticBody2D. It behaves as it should as an obstacle, but now it won't dissapear if it's hit with a fire slash
+
 commit c4f13c9faca9b6806298733599d052044e7f54bc
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Thu Nov 7 02:30:48 2024 -0600
+
+    Still working on the collision for echo and vines. The collision does hit as stated in the debug lines. But need to figure out how to stop the character from running until the end of screen
+
+commit 282c3464cbaf11edf99e819eb5b6a734a2caa068
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Thu Nov 7 02:30:48 2024 -0600
 
@@ -154,7 +1817,19 @@ Date:   Wed Nov 6 23:48:24 2024 -0600
 
     After many trials and errors, I have created the vine obstacle and the fire move can now hit it. Vine has been changed from a StaticBody2D to Area2D as it worked best and it detected collision a little better. There might be a better way to go with it, but we'll have to make changes after. Need to make collision with player when it hits the vine
 
+commit 67c310ac85875dffe1ac1f5063463af54e503763
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Wed Nov 6 23:48:24 2024 -0600
+
+    After many trials and errors, I have created the vine obstacle and the fire move can now hit it. Vine has been changed from a StaticBody2D to Area2D as it worked best and it detected collision a little better. There might be a better way to go with it, but we'll have to make changes after. Need to make collision with player when it hits the vine
+
 commit 6806f8a05133262ea0b15f586fd385e8560cb4f5
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Wed Nov 6 15:25:39 2024 -0600
+
+    Fireballs are now spawning and shooting, but it's slower than player and there's no collision happening.
+
+commit 1c0d20e8a7d6343323c9821e664bca511ac1e251
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Wed Nov 6 15:25:39 2024 -0600
 
@@ -166,7 +1841,19 @@ Date:   Sun Nov 3 03:24:21 2024 -0600
 
     Started working on the fireball aspect to be able to attack the vine obstacles
 
+commit e38fe7d318d0a830631b42a5fda9383e36f771a0
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Nov 3 03:24:21 2024 -0600
+
+    Started working on the fireball aspect to be able to attack the vine obstacles
+
 commit e3059a5bec8c3823e2ce1c414b41b06167d1ed37
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sun Nov 3 00:38:28 2024 -0600
+
+    Added the Vine sprites as an obstacle. Changed the node type from rigidbody to a static body so the obstacle stays in place. Need to implementa new attack or move to be able to get away or rid of obstacle
+
+commit d526447f06bc13edf00e33fea2d82534168fff1a
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Sun Nov 3 00:38:28 2024 -0600
 
@@ -178,7 +1865,19 @@ Date:   Sat Nov 2 23:42:52 2024 -0600
 
     Tested out mostly sizes and gameplay. Created a vine pixel and imported it for a new obstacle for game
 
+commit 8e43991bd38e9ae6cf53435121c213878ea6e7ea
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 2 23:42:52 2024 -0600
+
+    Tested out mostly sizes and gameplay. Created a vine pixel and imported it for a new obstacle for game
+
 commit 061617c99bf9bd0860a16acd71b3bbe8f3a40ecd
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Sat Nov 2 00:28:27 2024 -0600
+
+    imported runner file from Lyin
+
+commit 07cfb30c166deabeb367829085678d28e3f8144a
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Sat Nov 2 00:28:27 2024 -0600
 
@@ -192,12 +1891,6 @@ Date:   Fri Nov 1 22:22:48 2024 -0600
     Merge pull request #11 from nyan-kaaaat/katbranch
     
     added idle sprites for player spritesheet
-
-commit 9cee2604c7db3608ddeb7adf87dd6141b88892fa
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Nov 1 22:19:49 2024 -0600
-
-    added descriptions and cleaned up some code
 
 commit 37dc4e4b83031254a26f1703e91961ee3e7f256d
 Merge: 7eb7b7c 870bcc0
@@ -213,18 +1906,6 @@ Author: Katherine Nguyen <wvk548@usask.ca>
 Date:   Fri Nov 1 22:14:55 2024 -0600
 
     added idle animations for player spritesheet
-
-commit 20d6060e30480aa9841a157b9edb6fd10d085abc
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Nov 1 22:01:25 2024 -0600
-
-    implement highscore system, earth cast
-
-commit 1d36600aa5b9228525446ee1e293aba733bac55b
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Nov 1 20:32:47 2024 -0600
-
-    move obtacle with e, restart page implement
 
 commit 870bcc06a4c4e8b6c53d8720c3de0a4d807a3e20
 Merge: f100be2 79746f0
@@ -298,12 +1979,6 @@ Date:   Fri Nov 1 18:35:09 2024 -0600
 
     created an animation sprite sheet for the player and saved it as a png
 
-commit c4c394ebab0d68706ebe30582bff38943570add1
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Mon Oct 28 01:03:01 2024 -0600
-
-    updated runner so that there is a score and it generates a rock
-
 commit 39db8d1fe2b2e42c207b0123b9820cf7d78fbd65
 Merge: 8d3637a 2917be6
 Author: Katherine Nguyen <128651791+nyan-kaaaat@users.noreply.github.com>
@@ -331,7 +2006,19 @@ Date:   Fri Oct 25 21:43:07 2024 -0600
 
     removed kat.txt
 
+commit d4d7d1138d1fe4a1a750649572d6ffffa07f5b60
+Author: ElleOwO <lmtdmya@gmail.com>
+Date:   Fri Oct 25 21:43:07 2024 -0600
+
+    removed kat.txt
+
 commit 47da33246ca0fb918a61692834acc42b9c490e7d
+Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
+Date:   Fri Oct 25 21:42:04 2024 -0600
+
+    initial commit
+
+commit d69f7d49812dbf92fd72d635861fd82d79a85cb5
 Author: Diefer Santos (dls702) <dls702@mail.usask.ca>
 Date:   Fri Oct 25 21:42:04 2024 -0600
 
@@ -346,25 +2033,34 @@ Date:   Fri Oct 25 21:36:12 2024 -0600
     
     kat's test
 
+commit 622e65f8994330ea5b454e6f2f0486adb3e9fbd7
+Merge: 604ee6f f81c780
+Author: ElleOwO <76455872+ElleOwO@users.noreply.github.com>
+Date:   Fri Oct 25 21:36:12 2024 -0600
+
+    Merge pull request #1 from nyan-kaaaat/kat-branch
+    
+    kat's test
+
 commit 2f1db9dce9d1ecbd1a9861f1f073114e9125e0cf
 Author: Katherine Nguyen <wvk548@usask.ca>
 Date:   Fri Oct 25 21:31:48 2024 -0600
 
     kat's test
 
-commit e098542851cf0f9579cca2c73148a384f8048ad5
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Oct 25 21:28:47 2024 -0600
+commit f81c780963787b90ce63cda6de0d599277b25957
+Author: Katherine Nguyen <wvk548@usask.ca>
+Date:   Fri Oct 25 21:31:48 2024 -0600
 
-    deleted random files
-
-commit e3eefd55bf3f7391d41261ed54c8f791989b341b
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Oct 25 21:25:18 2024 -0600
-
-    game prototype test files
+    kat's test
 
 commit 7a7191c84334babaabac4ece68c0f79eb3dc24f7
+Author: Katherine Nguyen <128651791+nyan-kaaaat@users.noreply.github.com>
+Date:   Fri Oct 25 21:18:48 2024 -0600
+
+    Delete .gitattributes
+
+commit 604ee6faa266e4c8f5c1aabe28ec9b9d78e1ef99
 Author: Katherine Nguyen <128651791+nyan-kaaaat@users.noreply.github.com>
 Date:   Fri Oct 25 21:18:48 2024 -0600
 
@@ -376,19 +2072,31 @@ Date:   Fri Oct 25 21:18:36 2024 -0600
 
     Delete .gitignore
 
+commit 480fe985ca71844afbd820af734c83da40bf7136
+Author: Katherine Nguyen <128651791+nyan-kaaaat@users.noreply.github.com>
+Date:   Fri Oct 25 21:18:36 2024 -0600
+
+    Delete .gitignore
+
 commit 3916ae301dfbb871bf9a03e1e5bc472a16c0bd38
 Author: Katherine Nguyen <wvk548@usask.ca>
 Date:   Fri Oct 25 21:17:03 2024 -0600
 
     clreaned main branch
 
-commit c85816d6ed0ff41478d3a1c21508ac989b6dfc66
-Author: ElleOwO <lmtdmya@gmail.com>
-Date:   Fri Oct 25 21:12:06 2024 -0600
+commit 9204e3c6768a596ea52546beb7d85059c316f19e
+Author: Katherine Nguyen <wvk548@usask.ca>
+Date:   Fri Oct 25 21:17:03 2024 -0600
 
-    first commit
+    clreaned main branch
 
 commit 46d72981795594588d3f8fc707febdd06b2cedf9
+Author: Katherine Nguyen <wvk548@usask.ca>
+Date:   Wed Oct 23 14:22:36 2024 -0600
+
+    added game scene
+
+commit 4a29d97c56cf9cb12666e209f18a2ee5a2e540d1
 Author: Katherine Nguyen <wvk548@usask.ca>
 Date:   Wed Oct 23 14:22:36 2024 -0600
 
@@ -400,7 +2108,19 @@ Date:   Wed Oct 23 14:16:17 2024 -0600
 
     adding godot project files and created a 2d scene with the player node's collision and animated sprite nodes. nothing done to them yet
 
+commit 5175a5e6dca057fa920079f439bc93a16d3e800c
+Author: Katherine Nguyen <wvk548@usask.ca>
+Date:   Wed Oct 23 14:16:17 2024 -0600
+
+    adding godot project files and created a 2d scene with the player node's collision and animated sprite nodes. nothing done to them yet
+
 commit 372bc016b1234678207f98eafa490db6a57c7df7
+Author: ElleOwO <76455872+ElleOwO@users.noreply.github.com>
+Date:   Fri Oct 11 21:50:18 2024 -0600
+
+    Initial commit
+
+commit e5085dfce483d4869c9db5b4cc2e0fcafc3e2c3d
 Author: ElleOwO <76455872+ElleOwO@users.noreply.github.com>
 Date:   Fri Oct 11 21:50:18 2024 -0600
 
