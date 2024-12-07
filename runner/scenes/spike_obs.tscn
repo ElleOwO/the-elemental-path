@@ -40,7 +40,6 @@ scale = Vector2(7, 5.374)
 
 [node name="DeathBox" type="CollisionShape2D" parent="SpikeHitbox2"]
 position = Vector2(-56.7143, 8.23425)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_ib4e7")
 disabled = true
 
@@ -55,7 +54,6 @@ scale = Vector2(7, 5.373)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SpikeHitbox"]
 position = Vector2(6.92857, -13.4683)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_h3eep")
 disabled = true
 

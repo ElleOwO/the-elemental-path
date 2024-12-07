@@ -74,12 +74,12 @@ sources/2 = SubResource("TileSetAtlasSource_16o8m")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(549, 609)
+position = Vector2(1316, 606)
 scale = Vector2(1.56445, 1.52778)
 texture = ExtResource("1_3uqxx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(551, 618)
+position = Vector2(1317, 612)
 shape = SubResource("RectangleShape2D_dwsa4")
 
 [node name="Layer0" type="TileMapLayer" parent="."]

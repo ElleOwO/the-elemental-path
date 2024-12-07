@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://be4is81b4rfw2"]
 
 [ext_resource type="Script" path="res://scripts/instructions.gd" id="1_d6mhf"]
-[ext_resource type="VideoStream" path="res://assets/video/can-you-survive-the-path.ogv" id="1_gktoc"]
+[ext_resource type="VideoStream" path="res://assets/video/can-you-survive-the-path-_2_.ogv" id="2_cdk7v"]
 [ext_resource type="Texture2D" uid="uid://dakt4p3rxqvcr" path="res://assets/interfaces/Buttons/Menu1.png" id="3_hsco0"]
 [ext_resource type="Texture2D" uid="uid://yubem7eeixk3" path="res://assets/interfaces/Buttons/Menu2.png" id="4_0dx7k"]
 
@@ -21,7 +21,7 @@ custom_minimum_size = Vector2(1152, 648)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-stream = ExtResource("1_gktoc")
+stream = ExtResource("2_cdk7v")
 autoplay = true
 expand = true
 loop = true

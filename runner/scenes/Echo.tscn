@@ -335,7 +335,7 @@ animations = [{
 size = Vector2(65, 106)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bayfr"]
-size = Vector2(134, 126)
+size = Vector2(104.5, 150)
 
 [node name="Echo" type="CharacterBody2D"]
 script = ExtResource("1_yj31d")
@@ -357,31 +357,29 @@ shape = SubResource("RectangleShape2D_2nvop")
 [node name="Earth" type="AnimatedSprite2D" parent="."]
 visible = false
 texture_filter = 1
-position = Vector2(79, 35)
+position = Vector2(87, 34)
 scale = Vector2(4.625, 9.5625)
 sprite_frames = SubResource("SpriteFrames_a8h5c")
 animation = &"earth"
-frame = 5
-frame_progress = 0.527241
+frame_progress = 0.739401
 
 [node name="Water" type="AnimatedSprite2D" parent="."]
 visible = false
 texture_filter = 1
-position = Vector2(126, 23)
+position = Vector2(141, 20)
 scale = Vector2(4.625, 10.25)
 sprite_frames = SubResource("SpriteFrames_cvafy")
 animation = &"waterwall"
-frame_progress = 0.644986
+frame_progress = 0.223829
 
 [node name="Fire" type="AnimatedSprite2D" parent="."]
 visible = false
 texture_filter = 1
-position = Vector2(78, 44)
+position = Vector2(97, 44)
 scale = Vector2(5.25, 5.59375)
 sprite_frames = SubResource("SpriteFrames_f6y3w")
 animation = &"fire"
-frame = 1
-frame_progress = 0.858872
+frame_progress = 0.667276
 speed_scale = 2.0
 
 [node name="air" type="AnimatedSprite2D" parent="."]
@@ -418,10 +416,9 @@ shape = SubResource("RectangleShape2D_14pb7")
 
 [node name="Ability_hitbox" type="Area2D" parent="."]
 position = Vector2(46, 29)
-collision_layer = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ability_hitbox"]
-position = Vector2(17, 6)
+position = Vector2(44.75, 5)
 shape = SubResource("RectangleShape2D_bayfr")
 
 [connection signal="area_entered" from="Echo_hitbox" to="." method="_on_echo_hitbox_area_entered"]

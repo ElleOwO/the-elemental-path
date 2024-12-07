@@ -47,12 +47,12 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_07324"]
-radius = 6.35
-height = 27.7
+radius = 8.6
+height = 25.9
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvvvt"]
-radius = 9.6
-height = 30.2
+radius = 9.25
+height = 33.6
 
 [node name="FireObstacle" type="StaticBody2D"]
 position = Vector2(163, 346)
@@ -62,21 +62,20 @@ script = ExtResource("1_xu5aa")
 [node name="FireObstacle" type="AnimatedSprite2D" parent="."]
 texture_filter = 5
 texture_repeat = 1
-position = Vector2(-0.17383, 3.15)
-scale = Vector2(0.345872, 0.773645)
+position = Vector2(-3.45, 3.15)
+scale = Vector2(0.455078, 0.773645)
 sprite_frames = SubResource("SpriteFrames_j7m3n")
 animation = &"FireObstacle"
 
 [node name="FireCollision" type="CollisionShape2D" parent="."]
-position = Vector2(2.65, 3.2)
+position = Vector2(0.5, 3.05)
 shape = SubResource("CapsuleShape2D_07324")
 
 [node name="fireobs_hitbox" type="Area2D" parent="."]
 position = Vector2(-0.0999999, 6.05)
-collision_layer = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="fireobs_hitbox"]
-position = Vector2(2.65, -3.95)
+position = Vector2(0.7, -3.95)
 shape = SubResource("CapsuleShape2D_cvvvt")
 
 [connection signal="area_entered" from="fireobs_hitbox" to="." method="_on_fireobs_hitbox_area_entered"]

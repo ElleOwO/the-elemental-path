@@ -7,7 +7,6 @@ extends HBoxContainer
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	
 	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -28,7 +27,3 @@ func _process(delta: float) -> void:
 		a.modulate = Color(0.2, 0.2, 0.2)	
 	elif Input.is_action_just_released("earth"):
 		a.modulate = Color(1,1,1)
-
-		#w.modulate = Color(0.2, 0.2, 0.2)
-		#d.modulate = Color(0.2, 0.2, 0.2)
-		#a.modulate = Color(0.2, 0.2, 0.2)

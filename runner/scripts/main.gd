@@ -87,6 +87,7 @@ func new_game():
 	# Hide User Interface nodes and show instructions and return button
 	$HUD.get_node("StartLabel").show()
 	$HUD.get_node("Return").show()
+	
 	$GameOver.get_node("ScoreTitle").hide()
 	$GameOver.get_node("ScoreCount").hide()
 	$GameOver.get_node("Button").hide()
@@ -132,6 +133,7 @@ func _process(delta):
 		if Input.is_action_just_pressed("ui_accept"):
 			game_running = true
 			# get rid of this later
+			$HUD.get_node("HBOX").show()
 			$HUD.get_node("StartLabel").hide()
 			$HUD.get_node("Return").hide()
 
@@ -151,6 +153,7 @@ func game_over():
 	if $Echo.position.x < camera_left_boundary or $Echo.position.x > camera_right_boundary:
 		get_tree().paused = true  # Pause the game
 		if get_tree().paused == true:
+			$HUD.get_node("HBOX").hide()
 			$GameOver.get_node("Button").show()
 			$GameOver.get_node("ScoreTitle").show()
 			$GameOver.get_node("ScoreCount").show()
