@@ -51,6 +51,7 @@ process_mode = 2
 stream = ExtResource("9_rvuo5")
 
 [node name="Gem" parent="." groups=["Gem"] instance=ExtResource("8_flbh0")]
+position = Vector2(288, 352)
 
 [node name="GemSpawnTimer" type="Timer" parent="."]
 wait_time = 5.0
