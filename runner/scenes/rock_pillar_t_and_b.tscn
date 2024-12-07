@@ -9,8 +9,8 @@ size = Vector2(184, 194.438)
 
 [node name="Bottom" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(241.5, 305.5)
-scale = Vector2(9.53125, 14.5313)
+position = Vector2(263.5, 305.5)
+scale = Vector2(10.9062, 14.5313)
 texture = ExtResource("1_51kvy")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]

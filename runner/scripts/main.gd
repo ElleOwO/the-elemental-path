@@ -4,9 +4,6 @@ extends Node2D
 
 @onready var bg_music = $"/root/BackgroundMusic"
 @onready var game_over_sound = $GameOverSound
-@onready var gem_pickup_sound = $GemPickupSound
-
-
 
 
 # preload obstacle scenes
@@ -46,7 +43,7 @@ var high_score: int
 
 # Physics variables
 var speed : float
-const START_SPEED : float = 8.0
+const START_SPEED : float = 7.0
 const MAX_SPEED : int = 15
 const SPEED_MODIFIER : int = 12000
 var push_distance: float = 800.0 
@@ -67,6 +64,7 @@ func new_game():
 	# get rid of all game pausing stuff later
 	get_tree().paused = false
 	score = 0
+	$Echo.set_gem(0)
 	show_score()
 	game_running = false
 	
@@ -144,6 +142,7 @@ func _process(delta):
 func game_over():
 	
 	check_high_score()
+	
 	#reset hud and gameover screen
 	# Calculate the visible area based on the camera position
 	var camera_left_boundary = $Camera2D.position.x - screen_size.x / 2
@@ -249,23 +248,10 @@ func check_high_score():
 		high_score = score
 		$HUD.get_node("HighScoreLabel").text = "HIGH SCORE: " + str(high_score/SCORE_MODIFIER) 
 
-
-# spawns gems at random positions at a 5 second interval
-func _on_gem_spawn_timer_timeout() -> void:
-	# NOTE: code only works once you restart the game after dying once
-	#		problem with line 290
-	
-	# var gem = gemstone_scene.instantiate()
-	# var gem_location = $GemSpawnPath/GemSpawnPathFollow
-	# gem_location.progress_ratio = randf()
-	# gem.position = gem_location
-	# add_child(gem)
-	
-	print("gem spawned")
-
 #Game over function for instant death obstacles like fire_obs or spikes
 func instant_game_over() -> void:
 	print("Game over by insta death")
+	
 	get_tree().paused = true
 	$GameOver.get_node("Button").show()
 	$GameOver.get_node("ScoreTitle").show()
@@ -273,32 +259,6 @@ func instant_game_over() -> void:
 	$GameOver.get_node("ScoreCount").text = str(score / SCORE_MODIFIER)
 	game_over_sound.play()
 	
-#func spawn_gems():
-	#for i in range(5):
-		#var g = gem.instantiate()
-		#$GemContainer.add_child(g)
-		#g.screensize = screen_size
-		#g.position =Vector2(randf_range(0, screen_size.x), (randf_range(0, screen_size.y)))
-
-#func spawn_gems():
-	#for i in range(5):
-		#var g = gem.instantiate()
-		#$GemContainer.add_child(g)
-		##g.screensize = screen_size
-		#g.position = Vector2(randf_range(0, screen_size.x), randf_range(0, screen_size.y))
-
-#func spawn_gem():
-	#var camera_x = $Camera2D.position.x
-	#var ground_line = screen_size.y - ground_height
-	#var gem_y_position = ground_line - 50
-	#var spawn_x = camera_x + screen_size.x + 200
-#
-	#var g = gem.instantiate()
-	#$GemContainer.add_child(g) # or add_child(g) if you're adding directly to the main scene
-	#g.position = Vector2(spawn_x, gem_y_position)
-#
-	## Connect the gem's pickup signal to the _on_gem_picked_up function in this main script
-	##g.gem_picked_up.connect(Callable(self, "_on_gem_picked_up"))
 
 var gem_scene = preload("res://scenes/gem.tscn")
 var next_gem_x = 0
@@ -330,14 +290,6 @@ func spawn_gem():
 	add_child(g)
 	g.position = Vector2(next_gem_x, gem_y)
 
-	# Connect the pickup signal 
-	
-func _on_gem_picked_up():
-	gem_pickup_sound.play()
-	#print("Gem picked up!") # For debugging
-	score += SCORE_MODIFIER
-	show_score()
-	
 
-
-			
+func _on_echo_gem_count_changed(new_count: int) -> void:
+	pass # Replace with function body.

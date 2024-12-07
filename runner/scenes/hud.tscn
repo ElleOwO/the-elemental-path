@@ -4,7 +4,7 @@
 [ext_resource type="FontFile" uid="uid://be02sx43qwbhr" path="res://assets/fonts/Main_ Story_Font_majorL retro by Catman Industries.ttf" id="1_6pthw"]
 [ext_resource type="Texture2D" uid="uid://dakt4p3rxqvcr" path="res://assets/interfaces/Buttons/Menu1.png" id="3_2tjcx"]
 [ext_resource type="Texture2D" uid="uid://yubem7eeixk3" path="res://assets/interfaces/Buttons/Menu2.png" id="4_1tjcq"]
-[ext_resource type="PackedScene" path="res://scenes/control.tscn" id="5_0yxg1"]
+[ext_resource type="PackedScene" uid="uid://btw2qwrk45it" path="res://scenes/control.tscn" id="5_0yxg1"]
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_1u387")
@@ -16,7 +16,17 @@ offset_right = 100.0
 offset_bottom = 31.0
 theme_override_fonts/font = ExtResource("1_6pthw")
 theme_override_font_sizes/font_size = 24
-text = "SCORE:"
+text = "SCORE: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GemLabel" type="Label" parent="."]
+offset_top = 35.0
+offset_right = 102.0
+offset_bottom = 62.0
+theme_override_fonts/font = ExtResource("1_6pthw")
+theme_override_font_sizes/font_size = 24
+text = "GEMS: "
 horizontal_alignment = 1
 vertical_alignment = 1
 

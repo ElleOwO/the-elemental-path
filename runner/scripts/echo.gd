@@ -1,5 +1,9 @@
 extends CharacterBody2D
 
+
+signal gem_count_changed(new_count: int)
+
+
 # sprite variables
 @onready var echo_sprite: AnimatedSprite2D = $Echo
 @onready var earth_animation: AnimatedSprite2D = $Earth
@@ -11,6 +15,10 @@ extends CharacterBody2D
 @onready var jump_sound = $jumpsound
 @onready var air_sound = $airsound
 @onready var water_sound = $watersound
+@onready var gem_sound = $GemPickupSound
+
+@onready var gem_label = $GemLabel
+
 
 #Variables for the attacks and the obstacle signals
 var can_attack: bool = true
@@ -33,6 +41,8 @@ var DOUBLE_JUMP_SPEED : int  = -900
 #Glide Variables
 var GLIDE_GRAVITY: int = 1200
 var GLIDE_X_SPEED: int = 2000
+
+var gem_counter = 0
 
 func _on_ready():
 	#Adding to group "player". Used to have different interaction with fire and spike
@@ -196,3 +206,13 @@ func _on_echo_hitbox_area_entered(area: Area2D) -> void:
 		print("Player burnt to a crisp")
 	elif area.is_in_group("Spikes_obs"):
 		print("Player prickled from spikes")
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("gem"):
+		set_gem(gem_counter + 1)
+		gem_sound.play()
+		print(gem_counter)
+
+func set_gem(new_gem_count: int) -> void:
+	gem_counter = new_gem_count
+	emit_signal("gem_count_changed", gem_counter)

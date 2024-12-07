@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://l5lkp5yy3b20" path="res://scenes/Echo.tscn" id="4_n4rl8"]
 [ext_resource type="PackedScene" uid="uid://bspmx6iy24yee" path="res://scenes/hud.tscn" id="5_0j2pw"]
 [ext_resource type="PackedScene" uid="uid://dt73sqj2tpqkv" path="res://scenes/game_over.tscn" id="6_ku17w"]
-[ext_resource type="AudioStream" uid="uid://bvxp4cbryxsky" path="res://assets/audio/CollectGemDing.mp3" id="8_xwh6k"]
+[ext_resource type="PackedScene" uid="uid://cydxp5fep4nu3" path="res://scenes/gem.tscn" id="8_flbh0"]
 [ext_resource type="AudioStream" uid="uid://c4u7qw8wlx6uj" path="res://assets/audio/videogame-death-sound-43894.mp3" id="9_rvuo5"]
 
 [sub_resource type="Curve2D" id="Curve2D_xidyd"]
@@ -22,14 +22,14 @@ script = ExtResource("1_pxb6o")
 
 [node name="Ground" parent="." instance=ExtResource("3_r477m")]
 z_index = 1
-position = Vector2(-63, -577)
+position = Vector2(8, -528)
 scale = Vector2(2, 2)
 collision_layer = 3
 collision_mask = 3
 
 [node name="Ceiling" parent="." instance=ExtResource("3_r477m")]
 z_index = 1
-position = Vector2(127, -1275)
+position = Vector2(0, -1280)
 scale = Vector2(2, 2)
 
 [node name="Echo" parent="." instance=ExtResource("4_n4rl8")]
@@ -42,13 +42,15 @@ collision_mask = 3
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(576, 324)
 
-[node name="HUD" parent="." instance=ExtResource("5_0j2pw")]
+[node name="HUD" parent="." groups=["Gem", "gem"] instance=ExtResource("5_0j2pw")]
 
 [node name="GameOver" parent="." instance=ExtResource("6_ku17w")]
 process_mode = 2
 
 [node name="GameOverSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("9_rvuo5")
+
+[node name="Gem" parent="." groups=["Gem"] instance=ExtResource("8_flbh0")]
 
 [node name="GemSpawnTimer" type="Timer" parent="."]
 wait_time = 5.0
@@ -62,7 +64,7 @@ rotation = 1.5708
 
 [node name="GemContainer" type="Node" parent="."]
 
-[node name="GemPickupSound" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("8_xwh6k")
-
+[connection signal="gem_count_changed" from="Echo" to="." method="_on_echo_gem_count_changed"]
+[connection signal="gem_count_changed" from="Echo" to="HUD" method="update_gem_count"]
+[connection signal="gem_count_changed" from="Echo" to="HUD" method="_on_echo_gem_count_changed"]
 [connection signal="timeout" from="GemSpawnTimer" to="." method="_on_gem_spawn_timer_timeout"]

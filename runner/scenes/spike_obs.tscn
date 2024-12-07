@@ -5,13 +5,13 @@
 [ext_resource type="Texture2D" uid="uid://duxty8wucpg27" path="res://assets/sprites/obstacles/spikes2.png" id="3_pmodb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ib4e7"]
-size = Vector2(23.1429, 47.916)
+size = Vector2(23.1429, 34.3321)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h3eep"]
 size = Vector2(43.2857, 6.46384)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qjym5"]
-size = Vector2(203, 125)
+size = Vector2(203, 62)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nxjnu"]
 size = Vector2(306, 540.5)
@@ -21,8 +21,8 @@ script = ExtResource("1_r0ohr")
 
 [node name="Stalagmites" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(513, 528)
-scale = Vector2(8.53125, 23.9604)
+position = Vector2(520, 518.046)
+scale = Vector2(8.96875, 21.3154)
 texture = ExtResource("2_cpk6m")
 
 [node name="Stalactites" type="Sprite2D" parent="."]
@@ -39,14 +39,15 @@ rotation = -3.14159
 scale = Vector2(7, 5.374)
 
 [node name="DeathBox" type="CollisionShape2D" parent="SpikeHitbox2"]
-position = Vector2(-56.7143, 8.23425)
+position = Vector2(-56.7143, 1.44228)
+scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_ib4e7")
 disabled = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="SpikeHitbox2"]
-position = Vector2(0, -7.62126)
-scale = Vector2(1, 0.774343)
-polygon = PackedVector2Array(-45.2857, 42.7647, -44.8572, -15.0724, -73.7143, -15.0723, -70.4285, 16.0032, -68.8571, 31.4479, -66.1428, 7.25739, -63.9999, 47.2648, -60.2857, 0.74453, -57.8571, 37.0303, -54.7143, -4.09361, -51.9999, 32.5644, -48.2857, 0.186241)
+position = Vector2(-0.142876, -10.5484)
+scale = Vector2(1, 0.707117)
+polygon = PackedVector2Array(-45.7142, 53.9009, -42.7143, -11.9495, -75.5714, -13.4748, -72.7143, 16.5265, -70.8571, 44.7481, -66.1428, 7.25739, -65.1428, 58.986, -60.2857, 0.74453, -58.2857, 41.6971, -54.7143, -4.09361, -51.8571, 40.68, -48.2857, 0.186241)
 
 [node name="SpikeHitbox" type="Area2D" parent="."]
 position = Vector2(113, 87)
@@ -58,7 +59,7 @@ shape = SubResource("RectangleShape2D_h3eep")
 disabled = true
 
 [node name="StalagmiteCollision" type="CollisionShape2D" parent="."]
-position = Vector2(524.5, 490.5)
+position = Vector2(513, 507)
 shape = SubResource("RectangleShape2D_qjym5")
 
 [node name="StalactiteCollision" type="CollisionShape2D" parent="."]
