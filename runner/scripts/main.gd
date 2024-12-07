@@ -46,7 +46,7 @@ var high_score: int
 
 # Physics variables
 var speed : float
-const START_SPEED : float = 100.0
+const START_SPEED : float = 15.0
 const MAX_SPEED : int = 15
 const SPEED_MODIFIER : int = 12000
 var push_distance: float = 800.0 
