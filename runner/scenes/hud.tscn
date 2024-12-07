@@ -56,7 +56,7 @@ SPACE = JUMP
 
 
 W = WATER WALL | D = FIRE SLASH
-E = EARTH PUSH | DB SPACE = AIR JUMP
+A = EARTH PUSH | DB SPACE = AIR JUMP
 "
 horizontal_alignment = 1
 vertical_alignment = 1
