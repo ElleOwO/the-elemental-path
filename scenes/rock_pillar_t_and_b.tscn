@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcplk8em6aflp"]
+
+[ext_resource type="Texture2D" uid="uid://eio5vr51v4yv" path="res://assets/sprites/obstacles/Rock Wall bottom 2.png" id="1_51kvy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xx8bf"]
+size = Vector2(184, 194.438)
+
+[node name="Rock Pillar T and B" type="StaticBody2D"]
+
+[node name="Bottom" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(256, 306)
+scale = Vector2(10.9062, 14.5313)
+texture = ExtResource("1_51kvy")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(266, 443)
+shape = SubResource("RectangleShape2D_xx8bf")

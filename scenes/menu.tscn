@@ -1,0 +1,122 @@
+[gd_scene load_steps=14 format=3 uid="uid://cgi6f0enoto3q"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_1xpv3"]
+[ext_resource type="Texture2D" uid="uid://dyafw7o63k8vd" path="res://assets/interfaces/MenuBG.png" id="2_57cbt"]
+[ext_resource type="Texture2D" uid="uid://d06s36qnpq608" path="res://assets/interfaces/Echo/echo-1.png" id="3_0kuak"]
+[ext_resource type="Texture2D" uid="uid://c61qi7kwb1g28" path="res://assets/interfaces/Buttons/Quit1.png" id="3_3spmm"]
+[ext_resource type="Texture2D" uid="uid://dw8iludxxqaeg" path="res://assets/interfaces/Buttons/Quit2.png" id="4_hels7"]
+[ext_resource type="Texture2D" uid="uid://p2cmod0h51yd" path="res://assets/interfaces/Echo/echo-2.png" id="4_rdwng"]
+[ext_resource type="Texture2D" uid="uid://dli7re7y3fgma" path="res://assets/interfaces/Echo/echo-3.png" id="5_cg5mp"]
+[ext_resource type="Texture2D" uid="uid://4x5eo5babkuj" path="res://assets/interfaces/Buttons/Instruct1.png" id="5_ys73m"]
+[ext_resource type="Texture2D" uid="uid://d122o4uj2onfv" path="res://assets/interfaces/Echo/echo-4.png" id="6_20bhj"]
+[ext_resource type="Texture2D" uid="uid://0wynxp2ou724" path="res://assets/interfaces/Buttons/Instruct2.png" id="6_xv4gi"]
+[ext_resource type="Texture2D" uid="uid://cbtex7eaolk27" path="res://assets/interfaces/Buttons/Play3.png" id="7_bj0oi"]
+[ext_resource type="Texture2D" uid="uid://cfanyn744t23s" path="res://assets/interfaces/Buttons/Play2.png" id="8_44dnl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8gbic"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_0kuak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rdwng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cg5mp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_20bhj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1xpv3")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+follow_viewport_enabled = true
+
+[node name="TheElementalPath" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(576, 324)
+scale = Vector2(0.84041, 0.835938)
+texture = ExtResource("2_57cbt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CanvasLayer"]
+texture_filter = 3
+position = Vector2(860, 410)
+scale = Vector2(3.5, 3.5)
+sprite_frames = SubResource("SpriteFrames_8gbic")
+autoplay = "default"
+frame_progress = 0.818536
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -462.0
+offset_top = -164.0
+offset_right = -62.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Quit" type="TextureButton" parent="."]
+texture_filter = 1
+layout_mode = 2
+offset_left = 177.0
+offset_top = 458.0
+offset_right = 577.0
+offset_bottom = 526.0
+texture_normal = ExtResource("3_3spmm")
+texture_pressed = ExtResource("4_hels7")
+texture_hover = ExtResource("4_hels7")
+ignore_texture_size = true
+stretch_mode = 4
+
+[node name="Instructions" type="TextureButton" parent="."]
+texture_filter = 1
+layout_mode = 2
+offset_left = 175.0
+offset_top = 389.0
+offset_right = 575.0
+offset_bottom = 457.0
+texture_normal = ExtResource("5_ys73m")
+texture_pressed = ExtResource("6_xv4gi")
+texture_hover = ExtResource("6_xv4gi")
+ignore_texture_size = true
+stretch_mode = 4
+
+[node name="Play" type="TextureButton" parent="."]
+texture_filter = 1
+layout_mode = 2
+offset_left = 178.0
+offset_top = 319.0
+offset_right = 578.0
+offset_bottom = 387.0
+texture_normal = ExtResource("7_bj0oi")
+texture_pressed = ExtResource("8_44dnl")
+texture_hover = ExtResource("8_44dnl")
+ignore_texture_size = true
+stretch_mode = 4
+
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Instructions" to="." method="_on_instructions_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

@@ -1,9 +1,121 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731019029
-icon.svg::CompressedTexture2D::8323630035751159729::1731019026::1731019033::1::::<><>::
-::res://the-elemental-path-mary/::1731019024
-nsid.txt::TextFile::-1::1730625861::0::1::::<><>::
-::res://the-elemental-path-mary/runner/::1731019024
-::res://the-elemental-path-mary/runner/__MACOSX/::1731018993
-::res://the-elemental-path-mary/runner/__MACOSX/runner/::1731019023
-::res://the-elemental-path-mary/runner/__MACOSX/runner/sprites/::1731019023
+::res://::1733656973
+control.gd::GDScript::-1::1733634462::0::1::::<>HBoxContainer<>::
+::res://assets/::1733656905
+::res://assets/audio/::1733656903
+AirJumpWhoosh.mp3::AudioStreamMP3::8628826046723255059::1733634474::1733656975::1::::<><>::
+AirJumpWhoosh.wav::AudioStreamWAV::3759963336850148543::1733634474::1733656975::1::::<><>::
+CollectGemDing.mp3::AudioStreamMP3::3908829738746799052::1733634474::1733656975::1::::<><>::
+CollectGemDing.wav::AudioStreamWAV::160436868907176144::1733634474::1733656975::1::::<><>::
+FireSlash.mp3::AudioStreamMP3::6923791698704174064::1733634474::1733656975::1::::<><>::
+FireSlash.wav::AudioStreamWAV::7522243534638307845::1733634474::1733656975::1::::<><>::
+Look Again Kat.mp3::AudioStreamMP3::6543376381249360329::1733634474::1733656975::1::::<><>::
+RetroJump.mp3::AudioStreamMP3::1734251181574418065::1733634474::1733656975::1::::<><>::
+RetroJump.wav::AudioStreamWAV::6319349217095337208::1733634474::1733656975::1::::<><>::
+rocksound.mp3::AudioStreamMP3::3884376320459800244::1733634474::1733656975::1::::<><>::
+videogame-death-sound-43894.mp3::AudioStreamMP3::6851578111948810389::1733634474::1733656975::1::::<><>::
+VinesBurning.mp3::AudioStreamMP3::230970370691180615::1733634474::1733656975::1::::<><>::
+VinesBurning.wav::AudioStreamWAV::5277788377463446470::1733634474::1733656975::1::::<><>::
+water-splash-type-4-265467.mp3::AudioStreamMP3::2129227290735836665::1733634474::1733656975::1::::<><>::
+::res://assets/background/::1733656903
+Cave_Background-1.png::CompressedTexture2D::3892703408605525812::1733634474::1733656975::1::::<><>::
+Cave_Background-2.png::CompressedTexture2D::3607229486795869054::1733634474::1733656975::1::::<><>::
+Cave_Background-3.png::CompressedTexture2D::3278157925359512444::1733634474::1733656975::1::::<><>::
+Cave_Background-4.png::CompressedTexture2D::5640409885617773464::1733634474::1733656975::1::::<><>::
+Cave_Background-5.png::CompressedTexture2D::5718352582326398007::1733634474::1733656975::1::::<><>::
+::res://assets/fonts/::1733656903
+Main_ Story_Font_majorL retro by Catman Industries.ttf::FontFile::2720458259322528371::1733634476::1733656975::1::::<><>::
+Pixeled.ttf::FontFile::1175705997811701642::1733634476::1733656975::1::::<><>::
+::res://assets/interfaces/::1733656904
+MenuBG.png::CompressedTexture2D::8844138874642634305::1733634476::1733656975::1::::<><>::
+menu_background.png::CompressedTexture2D::263238250081897407::1733634476::1733656975::1::::<><>::
+::res://assets/interfaces/Buttons/::1733656904
+Instruct1.png::CompressedTexture2D::2084786588521448961::1733634476::1733656975::1::::<><>::
+Instruct2.png::CompressedTexture2D::1801619057142692179::1733634476::1733656975::1::::<><>::
+Menu1.png::CompressedTexture2D::7181112071414272697::1733634476::1733656975::1::::<><>::
+Menu2.png::CompressedTexture2D::1725888342463730252::1733634476::1733656975::1::::<><>::
+Play2.png::CompressedTexture2D::5124618499130498750::1733634476::1733656975::1::::<><>::
+Play3.png::CompressedTexture2D::4882539016527824534::1733634476::1733656975::1::::<><>::
+Quit1.png::CompressedTexture2D::7003356797203457007::1733634476::1733656975::1::::<><>::
+Quit2.png::CompressedTexture2D::8772047512852869406::1733634476::1733656975::1::::<><>::
+::res://assets/interfaces/Buttons/Skills/::1733656904
+A1.png::CompressedTexture2D::3471675620293029309::1733634476::1733656975::1::::<><>::
+A2.png::CompressedTexture2D::1828872298048476427::1733634476::1733656975::1::::<><>::
+D1.png::CompressedTexture2D::845228301679278351::1733634476::1733656975::1::::<><>::
+D2.png::CompressedTexture2D::5463336843790981037::1733634476::1733656975::1::::<><>::
+SPACE1.png::CompressedTexture2D::2167877344090488978::1733634476::1733656975::1::::<><>::
+SPACE2.png::CompressedTexture2D::3256675783988596416::1733634476::1733656975::1::::<><>::
+W1.png::CompressedTexture2D::3731858518073352223::1733634476::1733656975::1::::<><>::
+W2.png::CompressedTexture2D::5552619744953890670::1733634476::1733656975::1::::<><>::
+::res://assets/interfaces/Echo/::1733656904
+echo-1.png::CompressedTexture2D::8979123414057195519::1733634476::1733656975::1::::<><>::
+echo-2.png::CompressedTexture2D::1108714458550256603::1733634476::1733656975::1::::<><>::
+echo-3.png::CompressedTexture2D::7949827916050261016::1733634476::1733656975::1::::<><>::
+echo-4.png::CompressedTexture2D::9041576099465930035::1733634476::1733656975::1::::<><>::
+::res://assets/sprites/::1733656905
+::res://assets/sprites/casting/::1733656904
+Cloud.png::CompressedTexture2D::5307808821930708409::1733634476::1733656975::1::::<><>::
+Earth.png::CompressedTexture2D::5559134188243001703::1733634476::1733656975::1::::<><>::
+Fire slash sprite.png::CompressedTexture2D::5020314450213055016::1733634476::1733656975::1::::<><>::
+fire slash still.png::CompressedTexture2D::4835136640772570323::1733634476::1733656975::1::::<><>::
+fire_blast.png::CompressedTexture2D::4445458038240209110::1733634476::1733656975::1::::<><>::
+Fire_Powerups.png::CompressedTexture2D::844191276701078635::1733634476::1733656975::1::::<><>::
+Water Effect and Bullet 16x16.png::CompressedTexture2D::2511686321278042774::1733634476::1733656975::1::::<><>::
+WaterWall.png::CompressedTexture2D::848351483252428017::1733634476::1733656975::1::::<><>::
+::res://assets/sprites/character/::1733656904
+EchoSpritesheetBeta.png::CompressedTexture2D::3765300316879891754::1733634474::1733656975::1::::<><>::
+EchoSpritesheetProto2.png::CompressedTexture2D::3320360253977032551::1733634474::1733656975::1::::<><>::
+EchoSpritesheetProto.png::CompressedTexture2D::3320360253977032551::1733634474::1733656975::1::::<><>::
+::res://assets/sprites/environment/::1733656904
+ground.png::CompressedTexture2D::5698505941288796902::1733634474::1733656975::1::::<><>::
+::res://assets/sprites/obstacles/::1733656905
+FireObstacle.png::CompressedTexture2D::8382610551496143873::1733634474::1733656975::1::::<><>::
+Platform.png::CompressedTexture2D::2635547178004067664::1733634474::1733656975::1::::<><>::
+PlatformProto.png::CompressedTexture2D::3273401468493301693::1733634474::1733656975::1::::<><>::
+Rock Wall 2.png::CompressedTexture2D::4237024809469637696::1733634474::1733656975::1::::<><>::
+Rock Wall bottom 2.png::CompressedTexture2D::298175138951180417::1733634474::1733656975::1::::<><>::
+spikes2.png::CompressedTexture2D::8611717862267836518::1733634474::1733656975::1::::<><>::
+spikes.png::CompressedTexture2D::4205626835624729725::1733634474::1733656975::1::::<><>::
+vine proto 2.png::CompressedTexture2D::3600832251463994225::1733634474::1733656975::1::::<><>::
+Vine Prototype.png::CompressedTexture2D::8784569710308090427::1733634474::1733656975::1::::<><>::
+vine_proto_2.png::CompressedTexture2D::6326023800441554525::1733634474::1733656975::1::::<><>::
+::res://assets/sprites/obstacles/GrassetPack/::1733656905
+GrassetPack.png::CompressedTexture2D::745017506806418922::1733634474::1733656975::1::::<><>::
+::res://assets/sprites/pickups/::1733656905
+GemStoneSprite.png::CompressedTexture2D::8696398413073967230::1733634476::1733656975::1::::<><>::
+::res://assets/video/::1733656905
+can-you-survive-the-path-_2_.ogv::VideoStreamTheora::-1::1733634474::0::1::::<><>::
+::res://scenes/::1733656905
+background.tscn::PackedScene::7681251185587868706::1733652698::0::1::::<><>::uid://bvpwiyn5duyhw::::res://assets/background/Cave_Background-1.png<>uid://brnmspjk6rmcs::::res://assets/background/Cave_Background-2.png<>uid://bmx71uddoeey3::::res://assets/background/Cave_Background-3.png<>uid://cmmiyyd4nul57::::res://assets/background/Cave_Background-4.png
+background_music.tscn::PackedScene::8798045776076790592::1733652698::0::1::::<><>::uid://c0hwpnwyduahl::::res://assets/audio/Look Again Kat.mp3
+control.tscn::PackedScene::110796886387702339::1733652700::0::1::::<><>::res://control.gd<>uid://bppx8wyye63en::::res://assets/interfaces/Buttons/Skills/A1.png<>uid://1b6i3bimlm5h::::res://assets/interfaces/Buttons/Skills/A2.png<>uid://btf0fuh6hegn4::::res://assets/interfaces/Buttons/Skills/W1.png<>uid://cldy3omicsb63::::res://assets/interfaces/Buttons/Skills/W2.png<>uid://mbo10mcmgt16::::res://assets/interfaces/Buttons/Skills/D1.png<>uid://cj3qmhyi1r8d2::::res://assets/interfaces/Buttons/Skills/D2.png<>uid://55evglme35na::::res://assets/interfaces/Buttons/Skills/SPACE1.png<>uid://bmns8emdah62w::::res://assets/interfaces/Buttons/Skills/SPACE2.png
+controls.tscn::PackedScene::4884913298224980246::1733652700::0::1::::<><>::
+Echo.tscn::PackedScene::834695192817639059::1733652698::0::1::::<><>::res://scripts/echo.gd<>uid://btv67fxt3gvf3::::res://assets/sprites/character/EchoSpritesheetBeta.png<>uid://clg5el3htqy44::::res://assets/sprites/casting/Earth.png<>uid://bb1xdvnxgej31::::res://assets/sprites/casting/Water Effect and Bullet 16x16.png<>uid://cdr430oh8005q::::res://assets/sprites/casting/Fire slash sprite.png<>uid://c5v63qm6mv3m7::::res://assets/audio/FireSlash.mp3<>uid://mc7hwc0rdwcn::::res://assets/sprites/casting/WaterWall.png<>uid://bvlvd0ypchk0c::::res://assets/audio/rocksound.mp3<>uid://yyc4mkjnw0th::::res://assets/audio/RetroJump.mp3<>uid://chve3og63y4oj::::res://assets/sprites/casting/Cloud.png<>uid://du64re8djojgd::::res://assets/audio/AirJumpWhoosh.mp3<>uid://5loceel540sj::::res://assets/audio/water-splash-type-4-265467.mp3<>uid://bvxp4cbryxsky::::res://assets/audio/CollectGemDing.mp3
+fire_obstacle.tscn::PackedScene::7400067942515097946::1733652698::0::1::::<><>::res://scripts/fire_obstacle.gd<>uid://droumu7qcwown::::res://assets/sprites/obstacles/FireObstacle.png
+game_over.tscn::PackedScene::8560643243949177713::1733652698::0::1::::<><>::uid://be02sx43qwbhr::::res://assets/fonts/Main_ Story_Font_majorL retro by Catman Industries.ttf
+gem.tscn::PackedScene::6464991609330829456::1733652700::0::1::::<><>::res://scripts/gem.gd<>uid://dv5un8p43k81w::::res://assets/sprites/pickups/GemStoneSprite.png<>uid://bvxp4cbryxsky::::res://assets/audio/CollectGemDing.mp3
+ground.tscn::PackedScene::4454488595430894858::1733652698::0::1::::<><>::uid://cngntbxw5dqqo::::res://assets/sprites/environment/ground.png<>uid://ku5lg5ht7tly::::res://assets/sprites/obstacles/GrassetPack/GrassetPack.png
+hud.tscn::PackedScene::3681556854371579524::1733652698::0::1::::<><>::res://scripts/hud.gd<>uid://be02sx43qwbhr::::res://assets/fonts/Main_ Story_Font_majorL retro by Catman Industries.ttf<>uid://dakt4p3rxqvcr::::res://assets/interfaces/Buttons/Menu1.png<>uid://yubem7eeixk3::::res://assets/interfaces/Buttons/Menu2.png<>uid://btw2qwrk45it::::res://scenes/control.tscn
+instructions.tscn::PackedScene::2727562666865717395::1733652698::0::1::::<><>::res://scripts/instructions.gd<>res://assets/video/can-you-survive-the-path-_2_.ogv<>uid://dakt4p3rxqvcr::::res://assets/interfaces/Buttons/Menu1.png<>uid://yubem7eeixk3::::res://assets/interfaces/Buttons/Menu2.png
+main.tscn::PackedScene::3623660669492681774::1733652698::0::1::::<><>::res://scripts/main.gd<>uid://dho4c5ai7sf5c::::res://scenes/background.tscn<>uid://b4p11np75v5y1::::res://scenes/ground.tscn<>uid://l5lkp5yy3b20::::res://scenes/Echo.tscn<>uid://bspmx6iy24yee::::res://scenes/hud.tscn<>uid://dt73sqj2tpqkv::::res://scenes/game_over.tscn<>uid://cydxp5fep4nu3::::res://scenes/gem.tscn<>uid://c4u7qw8wlx6uj::::res://assets/audio/videogame-death-sound-43894.mp3
+menu.tscn::PackedScene::5212381926865263896::1733652698::0::1::::<><>::res://scripts/menu.gd<>uid://dyafw7o63k8vd::::res://assets/interfaces/MenuBG.png<>uid://d06s36qnpq608::::res://assets/interfaces/Echo/echo-1.png<>uid://c61qi7kwb1g28::::res://assets/interfaces/Buttons/Quit1.png<>uid://dw8iludxxqaeg::::res://assets/interfaces/Buttons/Quit2.png<>uid://p2cmod0h51yd::::res://assets/interfaces/Echo/echo-2.png<>uid://dli7re7y3fgma::::res://assets/interfaces/Echo/echo-3.png<>uid://4x5eo5babkuj::::res://assets/interfaces/Buttons/Instruct1.png<>uid://d122o4uj2onfv::::res://assets/interfaces/Echo/echo-4.png<>uid://0wynxp2ou724::::res://assets/interfaces/Buttons/Instruct2.png<>uid://cbtex7eaolk27::::res://assets/interfaces/Buttons/Play3.png<>uid://cfanyn744t23s::::res://assets/interfaces/Buttons/Play2.png
+platform.tscn::PackedScene::2357452535601812699::1733652700::0::1::::<><>::uid://bdsxcu78bxbkq::::res://assets/sprites/obstacles/Platform.png
+rock.tscn::PackedScene::4763089855059141580::1733652700::0::1::::<><>::res://scripts/rock.gd<>uid://ku5lg5ht7tly::::res://assets/sprites/obstacles/GrassetPack/GrassetPack.png
+rock_pillar.tscn::PackedScene::833847543306426577::1733652700::0::1::::<><>::res://scripts/rock_pillar.gd<>uid://b1mpgduann0bc::::res://assets/sprites/obstacles/Rock Wall 2.png
+rock_pillar_t_and_b.tscn::PackedScene::2558451522175972617::1733652700::0::1::::<><>::uid://eio5vr51v4yv::::res://assets/sprites/obstacles/Rock Wall bottom 2.png
+slash.tscn::PackedScene::451346268905908772::1733634464::0::1::::<><>::res://scenes/slash.gd<>res://sprites/fire slash still.png
+spike_obs.tscn::PackedScene::5192474507361282705::1733652700::0::1::::<><>::res://scripts/spike_obs.gd<>uid://b06ica25bxb6t::::res://assets/sprites/obstacles/spikes.png<>uid://duxty8wucpg27::::res://assets/sprites/obstacles/spikes2.png
+vine.tscn::PackedScene::6685331301752540685::1733652700::0::1::::<><>::res://scripts/vine.gd<>uid://cwemxnbkt72yr::::res://assets/sprites/obstacles/vine_proto_2.png
+::res://scripts/::1733656894
+echo.gd::GDScript::-1::1733651844::0::1::::<>CharacterBody2D<>::
+fire_obstacle.gd::GDScript::-1::1733634472::0::1::::<>StaticBody2D<>::
+gem.gd::GDScript::-1::1733634472::0::1::::Gem<>Area2D<>::
+Global.gd::GDScript::-1::1733634472::0::1::::<>Node<>::
+hud.gd::GDScript::-1::1733634472::0::1::::<>CanvasLayer<>::
+instructions.gd::GDScript::-1::1733634474::0::1::::<>Control<>::
+main.gd::GDScript::-1::1733652698::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1733634472::0::1::::<>Control<>::
+rock.gd::GDScript::-1::1733634472::0::1::::<>RigidBody2D<>::
+rock_pillar.gd::GDScript::-1::1733634472::0::1::::<>Node2D<>::
+spike_obs.gd::GDScript::-1::1733634472::0::1::::<>StaticBody2D<>::
+vine.gd::GDScript::-1::1733634472::0::1::::<>StaticBody2D<>::

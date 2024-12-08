@@ -1,0 +1,91 @@
+[gd_scene load_steps=8 format=4 uid="uid://b4p11np75v5y1"]
+
+[ext_resource type="Texture2D" uid="uid://cngntbxw5dqqo" path="res://assets/sprites/environment/ground.png" id="1_3uqxx"]
+[ext_resource type="Texture2D" uid="uid://ku5lg5ht7tly" path="res://assets/sprites/obstacles/GrassetPack/GrassetPack.png" id="1_bc51w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dwsa4"]
+size = Vector2(2764, 58)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ij0m6"]
+texture = ExtResource("1_bc51w")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5eydc"]
+margins = Vector2i(0, 2)
+texture_region_size = Vector2i(18, 12)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_16o8m"]
+texture = ExtResource("1_bc51w")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_7lfu8"]
+sources/0 = SubResource("TileSetAtlasSource_ij0m6")
+sources/1 = SubResource("TileSetAtlasSource_5eydc")
+sources/2 = SubResource("TileSetAtlasSource_16o8m")
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(254, 614)
+scale = Vector2(1.56445, 1.61111)
+texture = ExtResource("1_3uqxx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(256, 618)
+shape = SubResource("RectangleShape2D_dwsa4")
+
+[node name="Layer0" type="TileMapLayer" parent="."]
+visible = false
+texture_filter = 1
+use_parent_material = true
+scale = Vector2(4, 4)
+tile_map_data = PackedByteArray("AAASAAkAAQAAAAAAAAATAAkAAQAAAAAAAAAUAAkAAQAAAAAAAAAVAAkAAQAAAAAAAAAWAAkAAQAAAAAAAAAXAAkAAQAAAAAAAAAYAAkAAQAAAAAAAAAZAAkAAQAAAAAAAAAaAAkAAQAAAAAAAAAbAAkAAQAAAAAAAAAcAAkAAQAAAAAAAAAdAAkAAQAAAAAAAAAeAAkAAQAAAAAAAAAfAAkAAQAAAAAAAAAgAAkAAQAAAAAAAAAhAAkAAQAAAAAAAAAiAAkAAQAAAAAAAAAjAAkAAQAAAAAAAAAkAAkAAQAAAAAAAAAlAAkAAQAAAAAAAAA=")
+tile_set = SubResource("TileSet_7lfu8")

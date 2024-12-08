@@ -1,4 +1,0 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
-runner/scenes/tutorial_scenes/tutorial.avi

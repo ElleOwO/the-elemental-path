@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://l46l2m2msnwb"]
+
+[ext_resource type="Script" path="res://scripts/rock_pillar.gd" id="1_ir4kf"]
+[ext_resource type="Texture2D" uid="uid://b1mpgduann0bc" path="res://assets/sprites/obstacles/Rock Wall 2.png" id="2_e6n0q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l4mqb"]
+size = Vector2(11.8665, 26.0684)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2xvbr"]
+size = Vector2(62.1204, 61.5876)
+
+[node name="Rock Pillar" type="Node2D"]
+scale = Vector2(9.385, 9.385)
+script = ExtResource("1_ir4kf")
+
+[node name="Middle" type="StaticBody2D" parent="."]
+position = Vector2(0.532765, -7.2456)
+
+[node name="Middle_Sprites" type="Sprite2D" parent="Middle"]
+texture_filter = 1
+position = Vector2(25.3063, 37.187)
+scale = Vector2(1.08218, 1.94459)
+texture = ExtResource("2_e6n0q")
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="Middle"]
+position = Vector2(25.9989, 38.6787)
+scale = Vector2(1.32445, 2.20313)
+shape = SubResource("RectangleShape2D_l4mqb")
+
+[node name="Middle_Rock_hitbox" type="Area2D" parent="Middle"]
+collision_layer = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Middle/Middle_Rock_hitbox"]
+position = Vector2(2.7171, 37.6132)
+shape = SubResource("RectangleShape2D_2xvbr")
+
+[connection signal="area_entered" from="Middle/Middle_Rock_hitbox" to="." method="_on_middle_rock_hitbox_area_entered"]

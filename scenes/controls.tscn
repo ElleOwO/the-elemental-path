@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbuj2qoqqags1"]
+
+[sub_resource type="Theme" id="Theme_lf830"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_lm7pi"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 4.0
+offset_right = 2.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(100, 150)
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -579.0
+offset_top = -342.0
+offset_right = 579.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 30
+
+[node name="A" type="TextureButton" parent="HBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+theme = SubResource("Theme_lf830")
+theme_type_variation = &"pressed"
+texture_pressed = SubResource("CanvasTexture_lm7pi")
+
+[node name="W" type="TextureButton" parent="HBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+
+[node name="E" type="TextureButton" parent="HBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+
+[node name="R" type="TextureButton" parent="HBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+
+[connection signal="pressed" from="HBoxContainer/A" to="." method="_on_pressed"]
+[connection signal="pressed" from="HBoxContainer/W" to="." method="_on_pressed"]
+[connection signal="pressed" from="HBoxContainer/E" to="." method="_on_pressed"]
+[connection signal="pressed" from="HBoxContainer/R" to="." method="_on_pressed"]

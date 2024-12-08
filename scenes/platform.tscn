@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://8t75tb0hgbn4"]
+
+[ext_resource type="Texture2D" uid="uid://bdsxcu78bxbkq" path="res://assets/sprites/obstacles/Platform.png" id="1_dv6lr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m3prc"]
+size = Vector2(17.4276, 17.426)
+
+[node name="Platform" type="StaticBody2D"]
+texture_filter = 1
+scale = Vector2(26.395, 7.465)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.0757719, 3.75084)
+scale = Vector2(0.366357, 0.734092)
+texture = ExtResource("1_dv6lr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0.0378929, 7.36202)
+shape = SubResource("RectangleShape2D_m3prc")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, 0.133958)
+polygon = PackedVector2Array(-8.60011, 2.54521, -8.29703, 3.75084, -6.97102, 7.0998, -6.78159, 12.86, -5.60712, 13.5298, -5.26615, 9.37709, -4.88729, 11.7883, -4.39477, 11.7883, -4.09168, 9.51105, -3.37185, 12.86, -2.53836, 12.7261, -1.93218, 11.1186, -1.51544, 15.5392, -0.416746, 15.8071, 0.037886, 14.6015, 0.606175, 14.1996, 1.25024, 11.3865, 2.04584, 10.8506, 2.9551, 12.5921, 3.18242, 9.91293, 3.37185, 12.4581, 4.12957, 10.5827, 5.37981, 9.37709, 5.87232, 7.90355, 6.17541, 12.0563, 7.34988, 11.7883, 7.16045, 7.0998, 7.88028, 7.23376, 8.3728, 4.95646, 8.78954, 2.41125, 8.78954, -0.401875, 8.638, -1.74146, -8.56223, -1.47354)
